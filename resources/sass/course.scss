@@ -1,0 +1,185 @@
+.section-join-now {
+    background-image: url('/images/join_nows.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 1024px;
+
+    .join-now-logo {
+        margin-bottom: 5px;
+    }
+
+    .join-now-image {
+        opacity: 0;
+        width: 100%;
+    }
+
+    .form-join-now {
+        position: absolute;
+        top: -130px;
+        width: 100%;
+        height: 100%;
+
+        .join-now-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            flex-direction: column;
+
+            .join-image-title {
+                width: 100%;
+                max-width: 586px;
+                margin-bottom: 10px;
+            }
+
+            .join-content-title {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 50px;
+                line-height: 61px;
+                text-align: center;
+                letter-spacing: 0.2px;
+                text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+                margin-bottom: 26px;
+                color: $green-light;
+            }
+
+            .join-content-subtitle {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 28px;
+                line-height: 49px;
+                text-align: center;
+                color: $red-light;
+                text-shadow: 0 15.5126px 22.6723px rgba(0, 0, 0, 0.07);
+                font-family: 'Pacifico', cursive;
+                margin-bottom: 38px;
+            }
+
+            .join-content-buttons {
+                display: flex;
+                justify-content: center;
+
+                .button-login {
+                    background: linear-gradient(90.16deg, #8EE048 19.02%, #66CE5C 87.44%);
+                    border-radius: 12px;
+                    box-shadow: 0 4px 0 0 $green-normal;
+                    margin-right: 24px;
+                    text-decoration: none;
+                    color: $white;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 20px;
+                    line-height: 24px;
+                    text-align: center;
+                    padding: 15px;
+                    min-width: 188px;
+
+                    &:hover, &:focus {
+                        opacity: 0.8;
+                    }
+                }
+
+                .button-register {
+                    background: $yellow;
+                    border-radius: 12px;
+                    box-shadow: 0 4px 0 0 $warning;
+                    text-decoration: none;
+                    color: $white;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 20px;
+                    line-height: 24px;
+                    text-align: center;
+                    padding: 15px;
+                    min-width: 188px;
+
+                    &:hover, &:focus {
+                        opacity: 0.8;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .section-join-now {
+        .form-join-now {
+            .join-now-content {
+                .join-image-title {
+                    max-width: 470px;
+                }
+
+                .join-content-subtitle {
+                    font-size: 24px;
+                    line-height: 40px;
+                }
+
+                .join-content-buttons {
+                    .button-login,
+                    .button-register {
+                        font-size: 18px;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .section-join-now {
+        background-image: url('/images/join_nows_mobi.png');
+
+        .form-join-now {
+            top: -210px;
+
+            .join-now-content {
+                .join-content-subtitle {
+                    font-size: 16px;
+                    line-height: 28px;
+                    margin-bottom: 25px;
+                }
+
+                .join-image-title {
+                    max-width: 342px;
+                }
+
+                .join-content-buttons {
+                    .button-login {
+                        min-width: 158px;
+                        margin-right: 16px;
+                        padding-left: 0;
+                        padding-right: 0;
+                    }
+
+                    .button-register {
+                        min-width: 158px;
+                        padding-left: 0;
+                        padding-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 350px) {
+    .section-join-now {
+        .form-join-now {
+            .join-now-content {
+                .join-content-buttons {
+                    .button-login,
+                    .button-register {
+                        font-size: 16px;
+                        line-height: 20px;
+                        min-width: 130px;
+                        padding: 12px 0;
+                    }
+                }
+            }
+        }
+    }
+}

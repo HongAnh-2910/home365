@@ -1,0 +1,1373 @@
+@import '~bootstrap/scss/bootstrap';
+ @import '~@fortawesome/fontawesome-free/scss/brands';
+ @import '~@fortawesome/fontawesome-free/scss/regular';
+ @import '~@fortawesome/fontawesome-free/scss/solid';
+ @import '~@fortawesome/fontawesome-free/scss/fontawesome';
+ @import '~slick-carousel/slick/slick';
+ @import "~slick-carousel/slick/slick-theme";
+ @import "variable";
+ @import "dashboard";
+ @import "type214";
+ @import "type215";
+ @import "type213";
+ @import "exercise_taken";
+ @import "type4";
+ @import "type21";
+ @import "exercise_type";
+ @import "services";
+ @import "course";
+ @import "example_details";
+ @import "info";
+ @import "type22";
+ @import "type23";
+ @import "list_test";
+ @import "change_class";
+ @import "auth";
+ @import "lesson_skill";
+ @import "exercise";
+ @import "exercise_format";
+ @import "exercise_customer";
+ @import "exam";
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;
+0,200;
+0,300;
+0,400;
+0,500;
+0,600;
+0,700;
+0,800;
+0,900;
+1,100;
+1,200;
+1,300;
+1,400;
+1,500;
+1,600;
+1,700;
+1,800;
+1,900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Patrick+Hand&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+ * {
+	 font-family: 'Montserrat', sans-serif;
+}
+ .custom-container-wrapper {
+	 max-width: 1254px;
+	 margin-right: auto;
+	 margin-left: auto;
+	 padding-left: 15px;
+	 padding-right: 15px;
+	 font-family: inherit;
+}
+ header {
+	 position: relative;
+}
+ header .header-wrapper {
+	 max-width: 1254px;
+	 margin-right: auto;
+	 margin-left: auto;
+	 padding: 11px 15px 12px;
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+	 font-family: inherit;
+}
+ header .header-wrapper .icon-bars {
+	 display: none;
+}
+ header .header-wrapper .icon-bars .join-now-course .btn--warning {
+	 display: inline-block;
+	 background: #f6b70f;
+	 border-radius: 8px;
+	 color: #fff;
+	 text-decoration: none;
+	 font-style: normal;
+	 font-weight: 600;
+	 font-size: 14px;
+	 line-height: 20px;
+	 padding: 10px;
+	 margin-right: 23px;
+}
+ header .header-wrapper .icon-bars .join-now-course .btn--warning:hover, header .header-wrapper .icon-bars .join-now-course .btn--warning:focus {
+	 background: #f49000;
+}
+ header .header-wrapper .icon-bars .mobile-navigation-wrapper {
+	 display: none;
+	 margin-bottom: 0;
+	 list-style: none;
+	 position: absolute;
+	 left: 0;
+	 top: 70px;
+	 padding: 5px 15px;
+	 text-align: center;
+	 border-top: 1px solid #eef1f7;
+	 right: 0;
+	 background-color: #fff;
+	 z-index: 10;
+}
+ header .header-wrapper .icon-bars .mobile-navigation-wrapper.active {
+	 right: 0 !important;
+	 transition: 0.5s !important;
+}
+ header .header-wrapper .icon-bars .mobile-navigation-wrapper .mobile-item .btn-mobile-navigation {
+	 display: inline-block;
+	 text-decoration: none;
+	 color: #252b42;
+	 padding: 10px 0;
+	 cursor: pointer;
+	 font-weight: 700;
+	 font-size: 16px;
+	 font-style: normal;
+}
+ header .header-wrapper .icon-bars .mobile-navigation-wrapper .mobile-item .btn-mobile-navigation.active {
+	 border-bottom: 2px solid #f49000;
+}
+ header .header-wrapper .logo-wrapper .logo-page {
+	 display: inline-block;
+	 text-decoration: none;
+}
+ header .header-wrapper .logo-wrapper .logo-page .logo-item {
+	 margin-right: 8px;
+}
+ header .header-wrapper .logo-wrapper .logo-page .logo-text {
+	 color: #252b42;
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 16px;
+	 padding-bottom: 4px;
+	 padding-top: 4px;
+}
+ header .header-wrapper .header-navigation-wrapper {
+	 margin-bottom: 0;
+	 align-items: center;
+	 list-style: none;
+	 display: flex;
+}
+ header .header-wrapper .header-navigation-wrapper .item .btn-navigation {
+	 display: inline-block;
+	 text-decoration: none;
+	 color: #252b42;
+	 font-size: 16px;
+	 font-weight: 700;
+	 text-align: center;
+	 font-style: normal;
+	 margin-right: 32px;
+	 padding-bottom: 4px;
+	 padding-top: 4px;
+}
+ header .header-wrapper .header-navigation-wrapper .item .btn-navigation:hover:not(.btn--warning) {
+	 border-bottom: 2px solid #f49000;
+}
+ header .header-wrapper .header-navigation-wrapper .item .btn-navigation.active {
+	 border-bottom: 2px solid #f49000;
+}
+ header .header-wrapper .header-navigation-wrapper .item .btn-navigation.btn--warning {
+	 background-color: #f6b70f;
+	 color: #fff;
+	 padding: 12px 17px;
+	 border-radius: 8px;
+	 margin-right: 0;
+	 margin-left: 4px;
+}
+ header .header-wrapper .header-navigation-wrapper .item .btn-navigation.btn--warning:hover, header .header-wrapper .header-navigation-wrapper .item .btn-navigation.btn--warning:focus {
+	 background: #f49000;
+}
+ .content-container-wrapper {
+	 max-width: 1262px;
+	 margin-right: auto;
+	 margin-left: auto;
+	 padding-left: 15px;
+	 padding-right: 15px;
+	 font-family: inherit;
+}
+ .section-hero {
+	 background-repeat: no-repeat;
+	 background-size: cover;
+}
+ .section-hero .hero-wrapper .hero-section-content {
+	 display: flex;
+	 padding-top: 28px;
+	 padding-bottom: 49px;
+	 align-items: center;
+}
+ .section-hero .hero-wrapper .hero-section-content .hero-section-text {
+	 width: calc(39% + 1.53px);
+	 margin-right: 109px;
+}
+ .section-hero .hero-wrapper .hero-section-content .hero-section-text .hero-title {
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 50px;
+	 line-height: 61px;
+	 margin-bottom: 44px;
+}
+ .section-hero .hero-wrapper .hero-section-content .hero-section-text .hero-description {
+	 font-style: normal;
+	 font-weight: normal;
+	 font-size: 16px;
+	 line-height: 25px;
+	 letter-spacing: 0.253018px;
+	 margin-bottom: 44px;
+	 max-width: 444px;
+}
+ .section-hero .hero-wrapper .hero-section-content .hero-section-text .hero-link {
+	 display: flex;
+}
+ .section-hero .hero-wrapper .hero-section-content .hero-section-text .hero-link .link-app-store {
+	 margin-right: 44px;
+}
+ .section-hero .hero-wrapper .hero-section-content .hero-section-image {
+	 width: calc(61% - 110.47px);
+}
+ .section-hero .hero-wrapper .hero-section-content .hero-section-image .hero-ellipse_img {
+	 position: absolute;
+	 z-index: 0;
+	 bottom: 75px;
+	 left: 95px;
+}
+ .section-hero .hero-wrapper .hero-section-content .hero-section-image .hero-avatar {
+	 position: relative;
+	 z-index: 1;
+	 margin-right: auto;
+	 margin-left: auto;
+}
+ .section-instruction {
+	 margin-bottom: 150px;
+}
+ .section-instruction .instruction-subtitle {
+	 color: #5fc43a;
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 14px;
+	 line-height: 24px;
+	 letter-spacing: 0.2px;
+	 margin-bottom: 10px;
+}
+ .section-instruction .instruction-title {
+	 color: #252b42;
+	 font-size: 32px;
+	 line-height: 40px;
+	 font-style: normal;
+	 font-weight: bold;
+	 letter-spacing: 0.2px;
+	 margin-bottom: 36px;
+}
+ .section-instruction .instruction-boxes.on-desktop {
+	 display: flex;
+}
+ .section-instruction .instruction-boxes.on-desktop .instruction-card {
+	 box-shadow: 0 15.5126px 22.6723px rgba(0, 0, 0, 0.07);
+}
+ .section-instruction .instruction-boxes.on-desktop .instruction-card:hover, .section-instruction .instruction-boxes.on-desktop .instruction-card:focus {
+	 background: linear-gradient(180deg, #5bce71 0%, #3fc646 83.85%);
+}
+ .section-instruction .instruction-boxes.on-desktop .instruction-card:hover .instruction-card-title, .section-instruction .instruction-boxes.on-desktop .instruction-card:focus .instruction-card-title, .section-instruction .instruction-boxes.on-desktop .instruction-card:hover .instruction-description, .section-instruction .instruction-boxes.on-desktop .instruction-card:focus .instruction-description {
+	 color: #fff;
+}
+ .section-instruction .instruction-boxes.on-mobile {
+	 display: none;
+	 overflow: hidden;
+}
+ .section-instruction .instruction-boxes .slick-list {
+	 padding-bottom: 60px;
+}
+ .section-instruction .instruction-boxes .slick-list.half-slide {
+	 padding: 0 20% 60px 0 !important;
+}
+ .section-instruction .instruction-boxes .slick-list .slick-track {
+	 display: flex !important;
+}
+ .section-instruction .instruction-boxes .slick-list .slick-track .slick-slide {
+	 height: inherit !important;
+	 box-shadow: 0 15.5126px 22.6723px rgba(0, 0, 0, 0.07);
+	 margin-left: 15px;
+	 margin-right: 15px;
+}
+ .section-instruction .instruction-boxes .slick-dots {
+	 bottom: 0;
+}
+ .section-instruction .instruction-boxes .slick-dots li.slick-active button:before {
+	 color: #f49000;
+}
+ .section-instruction .instruction-boxes .slick-dots li button:before {
+	 color: #eef1f7-lighter;
+	 font-size: 8px;
+}
+ .section-instruction .instruction-boxes .instruction-card {
+	 width: calc(25% - 26.25px);
+	 border-radius: 8px;
+	 padding: 30px;
+}
+ .section-instruction .instruction-boxes .instruction-card:not(:last-child) {
+	 margin-right: 35px;
+}
+ .section-instruction .instruction-boxes .instruction-card:nth-child(2n+2) {
+	 margin-top: 38px;
+}
+ .section-instruction .instruction-boxes .instruction-card:nth-child(2n+1) {
+	 margin-bottom: 38px;
+}
+ .section-instruction .instruction-boxes .instruction-card .instruction-icon {
+	 margin-bottom: 27px;
+}
+ .section-instruction .instruction-boxes .instruction-card .instruction-card-title {
+	 color: #252b42;
+	 max-width: 208px;
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 20px;
+	 line-height: 24px;
+	 margin-bottom: 20px;
+}
+ .section-instruction .instruction-boxes .instruction-card .instruction-hr {
+	 width: 60px;
+	 height: 2.39px;
+	 margin-bottom: 20px;
+	 background: linear-gradient(180deg, #5bce71 0%, #3fc646 83.85%);
+}
+ .section-instruction .instruction-boxes .instruction-card .instruction-description {
+	 font-style: normal;
+	 font-weight: normal;
+	 font-size: 16px;
+	 line-height: 24px;
+}
+ .section-instruction .instruction-boxes .instruction-card .instruction-description .more-text {
+	 display: none;
+}
+ .section-instruction .instruction-boxes .instruction-card .instruction-description .instruction-btn-more {
+	 color: #f49000;
+	 font-weight: bold;
+}
+ .section-instruction .instruction-boxes .instruction-card .instruction-description .instruction-btn-more:hover, .section-instruction .instruction-boxes .instruction-card .instruction-description .instruction-btn-more:focus {
+	 opacity: 0.7;
+}
+ .section-intro-wrapper {
+	 max-width: 1254px;
+	 margin-right: auto;
+	 margin-left: auto;
+	 padding-left: 15px;
+	 padding-right: 15px;
+	 font-family: inherit;
+}
+ .section-introduce {
+	 padding-top: 114px;
+	 padding-bottom: 110px;
+}
+ .section-introduce .section-video {
+	 border-radius: 10px;
+	 overflow: hidden;
+	 display: flex;
+	 margin-right: 100px;
+	 width: calc(55% - 50px);
+	 position: relative;
+}
+ .section-introduce .section-video .button-action-video {
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 width: 109px;
+	 height: 109px;
+	 position: absolute;
+	 top: calc(50% - 54.5px);
+	 left: calc(50% - 54.5px);
+	 background-color: #f49000;
+	 z-index: 1;
+	 cursor: pointer;
+	 border-radius: 86.9291px;
+}
+ .section-introduce .section-video .button-action-video img {
+	 width: 22px;
+	 height: 25px;
+}
+ .section-introduce .section-video .home-youtube-video {
+	 height: 338px;
+}
+ .section-introduce .section-intro-text {
+	 color: #252b42;
+	 width: calc(45% - 50px);
+	 max-width: 477px;
+}
+ .section-introduce .section-intro-text .clone-hr {
+	 width: 94px;
+	 height: 7px;
+	 background: linear-gradient(180deg, #67ce5d 0%, #5fc43a 100%);
+	 margin-bottom: 35px;
+}
+ .section-introduce .section-intro-text .intro-title {
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 40px;
+	 line-height: 50px;
+	 letter-spacing: 0.2px;
+	 margin-bottom: 35px;
+}
+ .section-introduce .section-intro-text .intro-description {
+	 font-style: normal;
+	 font-weight: normal;
+	 font-size: 16px;
+	 line-height: 24px;
+	 color: #eef1f7-highter;
+	 margin-bottom: 35px;
+}
+ .section-introduce .section-intro-text .intro-more-wrapper .btn-intro-more {
+	 color: #f6b70f;
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 14px;
+	 line-height: 24px;
+	 letter-spacing: 0.2px;
+	 display: inline-block;
+}
+ .section-introduce .section-intro-text .intro-more-wrapper .btn-intro-more:hover, .section-introduce .section-intro-text .intro-more-wrapper .btn-intro-more:focus {
+	 opacity: 0.7;
+}
+ .section-marquee {
+	 margin-top: 82px;
+}
+ .section-marquee .section-intro-wrapper {
+	 max-width: 1051px;
+}
+ .section-marquee .marquee-mobile .image-icon {
+	 width: calc(33.33% - 20px);
+	 margin-bottom: 30px;
+}
+ .section-marquee .marquee-mobile .image-icon:not(:nth-child(3n+3)) {
+	 margin-right: 30px;
+}
+ .section-featured {
+	 background: rgba(88, 204, 2, 0.15);
+}
+ .section-featured .featured-image-after {
+	 position: absolute;
+	 bottom: 0;
+	 z-index: -1;
+	 background-size: cover;
+	 background-repeat: no-repeat;
+	 width: 100%;
+}
+ .section-featured .featured-image-after img {
+	 opacity: 0;
+	 width: 100%;
+}
+ .section-featured .section-featured-content {
+	 padding-top: 100px;
+	 padding-bottom: 54px;
+}
+ .section-featured .section-featured-content .clone-hr {
+	 background: linear-gradient(180deg, #5bce71 0%, #3fc646 83.85%);
+	 width: 94px;
+	 height: 7px;
+	 margin-bottom: 35px;
+	 margin-right: auto;
+	 margin-left: auto;
+}
+ .section-featured .section-featured-content .featured-title {
+	 font-style: normal;
+	 color: #252b42;
+	 font-weight: bold;
+	 font-size: 40px;
+	 line-height: 50px;
+	 letter-spacing: 0.2px;
+	 margin-bottom: 35px;
+	 text-align: center;
+}
+ .section-featured .section-featured-content .featured-sub-title {
+	 font-size: 14px;
+	 line-height: 20px;
+	 text-align: center;
+	 letter-spacing: 0.2px;
+	 max-width: 784px;
+	 margin-left: auto;
+	 margin-bottom: 65px;
+	 margin-right: auto;
+}
+ .section-featured .section-featured-content .featured-boxes {
+	 display: flex;
+	 flex-wrap: wrap;
+	 justify-content: center;
+}
+ .section-featured .section-featured-content .featured-boxes .featured-card {
+	 width: calc(33.33% - 24px);
+	 padding: 35px 30px 40px;
+	 background: #fff;
+	 box-shadow: 0px 15.5126px 22.6723px rgba(0, 0, 0, 0.07);
+	 border-radius: 8px;
+	 margin-bottom: 43px;
+}
+ .section-featured .section-featured-content .featured-boxes .featured-card.first, .section-featured .section-featured-content .featured-boxes .featured-card.second, .section-featured .section-featured-content .featured-boxes .featured-card.fourth {
+	 margin-right: 36px;
+}
+ .section-featured .section-featured-content .featured-boxes .featured-card.first, .section-featured .section-featured-content .featured-boxes .featured-card.second, .section-featured .section-featured-content .featured-boxes .featured-card.third {
+	 padding-bottom: 69px;
+}
+ .section-featured .section-featured-content .featured-boxes .featured-card .featured-icon {
+	 margin-bottom: 37px;
+}
+ .section-featured .section-featured-content .featured-boxes .featured-card .featured-card-title {
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 20px;
+	 line-height: 24px;
+	 display: flex;
+	 align-items: center;
+	 color: #252b42;
+	 margin-bottom: 23px;
+}
+ .section-featured .section-featured-content .featured-boxes .featured-card .featured-card-text {
+	 font-style: normal;
+	 color: #eef1f7-highter;
+	 font-size: 16px;
+	 line-height: 24px;
+}
+ .section-benefits {
+	 margin-top: 100px;
+}
+ .section-benefits .section-intro-wrapper {
+	 margin-bottom: 50px;
+}
+ .section-benefits .clone-hr {
+	 width: 94px;
+	 height: 7px;
+	 background: linear-gradient(180deg, #5bce71 0%, #3fc646 83.85%);
+	 margin-bottom: 35px;
+	 margin-left: auto;
+	 margin-right: auto;
+}
+ .section-benefits .benefit-title {
+	 margin-bottom: 80px;
+	 max-width: 700px;
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 40px;
+	 line-height: 50px;
+	 color: #252b42;
+	 text-align: center;
+	 letter-spacing: 0.2px;
+	 margin-left: auto;
+	 margin-right: auto;
+}
+ .section-benefits .benefit-boxes {
+	 display: flex;
+	 flex-wrap: wrap;
+	 justify-content: center;
+}
+ .section-benefits .benefit-boxes .benefit-card {
+	 width: calc(33.33% - 22px);
+	 margin-bottom: 30px;
+	 max-width: 500px;
+}
+ .section-benefits .benefit-boxes .benefit-card.first {
+	 margin-right: 33px;
+}
+ .section-benefits .benefit-boxes .benefit-card.first .benefit-card-number {
+	 background-color: #edfaee;
+}
+ .section-benefits .benefit-boxes .benefit-card.first .benefit-card-number .number-text {
+	 color: #5fc43a;
+}
+ .section-benefits .benefit-boxes .benefit-card.first .benefit-card-title {
+	 color: #5fc43a;
+}
+ .section-benefits .benefit-boxes .benefit-card.second {
+	 margin-right: 33px;
+}
+ .section-benefits .benefit-boxes .benefit-card.second .benefit-card-number {
+	 background-color: #fff0ee;
+}
+ .section-benefits .benefit-boxes .benefit-card.second .benefit-card-number .number-text {
+	 color: #ff6551;
+}
+ .section-benefits .benefit-boxes .benefit-card.second .benefit-card-title {
+	 color: #ff6551;
+}
+ .section-benefits .benefit-boxes .benefit-card.third .benefit-card-number {
+	 background-color: #fef8e7;
+}
+ .section-benefits .benefit-boxes .benefit-card.third .benefit-card-number .number-text {
+	 color: #f6b70f;
+}
+ .section-benefits .benefit-boxes .benefit-card.third .benefit-card-title {
+	 color: #f6b70f;
+}
+ .section-benefits .benefit-boxes .benefit-card .benefit-card-number {
+	 margin-bottom: 25px;
+	 width: 42px;
+	 height: 42px;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 border-radius: 50%;
+	 margin-right: auto;
+	 margin-left: auto;
+}
+ .section-benefits .benefit-boxes .benefit-card .benefit-card-number .number-text {
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 32px;
+	 line-height: 39px;
+	 display: flex;
+	 align-items: center;
+	 text-align: center;
+}
+ .section-benefits .benefit-boxes .benefit-card .benefit-card-title {
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 24px;
+	 line-height: 32px;
+	 text-align: center;
+	 margin-bottom: 30px;
+}
+ .section-benefits .benefit-boxes .benefit-card .benefit-card-text {
+	 color: #4f4f4f;
+	 opacity: 0.7;
+	 text-align: center;
+	 font-style: normal;
+	 font-size: 16px;
+	 line-height: 24px;
+	 padding-left: 23px;
+	 margin-bottom: 0;
+}
+ #modal-term, #modal-error, #modal-lesson, #modal-exercise-active, #modal-submit, #modal-expired-submit, #modal-continue-task, #modal-result, #modal-type23-result, #modal-login {
+	 padding-left: 15px;
+	 padding-right: 15px;
+	 background-color: rgba(0, 0, 0, 0.4);
+	 overflow-y: hidden;
+}
+ #modal-term.show, #modal-error.show, #modal-lesson.show, #modal-exercise-active.show, #modal-submit.show, #modal-expired-submit.show, #modal-continue-task.show, #modal-result.show, #modal-type23-result.show, #modal-login.show {
+	 display: block;
+}
+ #modal-term .modal-dialog, #modal-error .modal-dialog, #modal-lesson .modal-dialog, #modal-exercise-active .modal-dialog, #modal-submit .modal-dialog, #modal-expired-submit .modal-dialog, #modal-continue-task .modal-dialog, #modal-result .modal-dialog, #modal-type23-result .modal-dialog, #modal-login .modal-dialog {
+	 margin-top: 100px;
+}
+ #modal-term .modal-dialog .modal-content, #modal-error .modal-dialog .modal-content, #modal-lesson .modal-dialog .modal-content, #modal-exercise-active .modal-dialog .modal-content, #modal-submit .modal-dialog .modal-content, #modal-expired-submit .modal-dialog .modal-content, #modal-continue-task .modal-dialog .modal-content, #modal-result .modal-dialog .modal-content, #modal-type23-result .modal-dialog .modal-content, #modal-login .modal-dialog .modal-content {
+	 padding-left: 20px;
+}
+ #modal-term .modal-dialog .modal-content .modal-header, #modal-error .modal-dialog .modal-content .modal-header, #modal-lesson .modal-dialog .modal-content .modal-header, #modal-exercise-active .modal-dialog .modal-content .modal-header, #modal-submit .modal-dialog .modal-content .modal-header, #modal-expired-submit .modal-dialog .modal-content .modal-header, #modal-continue-task .modal-dialog .modal-content .modal-header, #modal-result .modal-dialog .modal-content .modal-header, #modal-type23-result .modal-dialog .modal-content .modal-header, #modal-login .modal-dialog .modal-content .modal-header {
+	 position: absolute;
+	 top: 0;
+	 width: 100%;
+	 left: 0;
+	 z-index: 1;
+	 background: linear-gradient(180deg, #5bce71 0%, #3fc646 83.85%);
+	 box-shadow: inset 0px -1px 0px #f2f2f2;
+	 border-radius: 4px 4px 0 0;
+	 padding: 12px 15px;
+	 border-bottom: 0;
+}
+ #modal-term .modal-dialog .modal-content .modal-header .modal-title, #modal-error .modal-dialog .modal-content .modal-header .modal-title, #modal-lesson .modal-dialog .modal-content .modal-header .modal-title, #modal-exercise-active .modal-dialog .modal-content .modal-header .modal-title, #modal-submit .modal-dialog .modal-content .modal-header .modal-title, #modal-expired-submit .modal-dialog .modal-content .modal-header .modal-title, #modal-continue-task .modal-dialog .modal-content .modal-header .modal-title, #modal-result .modal-dialog .modal-content .modal-header .modal-title, #modal-type23-result .modal-dialog .modal-content .modal-header .modal-title, #modal-login .modal-dialog .modal-content .modal-header .modal-title {
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 16px;
+	 line-height: 24px;
+	 color: #fff;
+}
+ #modal-term .modal-dialog .modal-content .modal-header .btn-close-modal, #modal-error .modal-dialog .modal-content .modal-header .btn-close-modal, #modal-lesson .modal-dialog .modal-content .modal-header .btn-close-modal, #modal-exercise-active .modal-dialog .modal-content .modal-header .btn-close-modal, #modal-submit .modal-dialog .modal-content .modal-header .btn-close-modal, #modal-expired-submit .modal-dialog .modal-content .modal-header .btn-close-modal, #modal-continue-task .modal-dialog .modal-content .modal-header .btn-close-modal, #modal-result .modal-dialog .modal-content .modal-header .btn-close-modal, #modal-type23-result .modal-dialog .modal-content .modal-header .btn-close-modal, #modal-login .modal-dialog .modal-content .modal-header .btn-close-modal {
+	 color: #fff;
+	 background-color: transparent;
+	 border: none;
+}
+ #modal-term .modal-dialog .modal-content .modal-body, #modal-error .modal-dialog .modal-content .modal-body, #modal-lesson .modal-dialog .modal-content .modal-body, #modal-exercise-active .modal-dialog .modal-content .modal-body, #modal-submit .modal-dialog .modal-content .modal-body, #modal-expired-submit .modal-dialog .modal-content .modal-body, #modal-continue-task .modal-dialog .modal-content .modal-body, #modal-result .modal-dialog .modal-content .modal-body, #modal-type23-result .modal-dialog .modal-content .modal-body, #modal-login .modal-dialog .modal-content .modal-body {
+	 margin-top: 50.8px;
+	 max-height: 600px;
+	 overflow-y: auto;
+	 padding: 15px 15px 15px 0;
+}
+ #modal-term .modal-dialog .modal-content .modal-body .section-code-active, #modal-error .modal-dialog .modal-content .modal-body .section-code-active, #modal-lesson .modal-dialog .modal-content .modal-body .section-code-active, #modal-exercise-active .modal-dialog .modal-content .modal-body .section-code-active, #modal-submit .modal-dialog .modal-content .modal-body .section-code-active, #modal-expired-submit .modal-dialog .modal-content .modal-body .section-code-active, #modal-continue-task .modal-dialog .modal-content .modal-body .section-code-active, #modal-result .modal-dialog .modal-content .modal-body .section-code-active, #modal-type23-result .modal-dialog .modal-content .modal-body .section-code-active, #modal-login .modal-dialog .modal-content .modal-body .section-code-active {
+	 display: flex;
+	 flex-direction: column;
+	 align-items: center;
+}
+ #modal-term .modal-dialog .modal-content .modal-footer .btn-close-modal, #modal-error .modal-dialog .modal-content .modal-footer .btn-close-modal, #modal-lesson .modal-dialog .modal-content .modal-footer .btn-close-modal, #modal-exercise-active .modal-dialog .modal-content .modal-footer .btn-close-modal, #modal-submit .modal-dialog .modal-content .modal-footer .btn-close-modal, #modal-expired-submit .modal-dialog .modal-content .modal-footer .btn-close-modal, #modal-continue-task .modal-dialog .modal-content .modal-footer .btn-close-modal, #modal-result .modal-dialog .modal-content .modal-footer .btn-close-modal, #modal-type23-result .modal-dialog .modal-content .modal-footer .btn-close-modal, #modal-login .modal-dialog .modal-content .modal-footer .btn-close-modal, #modal-term .modal-dialog .modal-content .modal-footer .btn-modal-error-close, #modal-error .modal-dialog .modal-content .modal-footer .btn-modal-error-close, #modal-lesson .modal-dialog .modal-content .modal-footer .btn-modal-error-close, #modal-exercise-active .modal-dialog .modal-content .modal-footer .btn-modal-error-close, #modal-submit .modal-dialog .modal-content .modal-footer .btn-modal-error-close, #modal-expired-submit .modal-dialog .modal-content .modal-footer .btn-modal-error-close, #modal-continue-task .modal-dialog .modal-content .modal-footer .btn-modal-error-close, #modal-result .modal-dialog .modal-content .modal-footer .btn-modal-error-close, #modal-type23-result .modal-dialog .modal-content .modal-footer .btn-modal-error-close, #modal-login .modal-dialog .modal-content .modal-footer .btn-modal-error-close {
+	 text-decoration: none;
+	 background-color: #ff6551;
+	 color: #fff;
+	 font-size: 16px;
+	 line-height: 18px;
+	 text-align: center;
+	 padding: 15px 30px;
+	 border-radius: 10px;
+	 font-weight: bold;
+	 margin: 0;
+}
+ #modal-term .modal-dialog .modal-content .modal-footer .btn-close-modal:hover, #modal-error .modal-dialog .modal-content .modal-footer .btn-close-modal:hover, #modal-lesson .modal-dialog .modal-content .modal-footer .btn-close-modal:hover, #modal-exercise-active .modal-dialog .modal-content .modal-footer .btn-close-modal:hover, #modal-submit .modal-dialog .modal-content .modal-footer .btn-close-modal:hover, #modal-expired-submit .modal-dialog .modal-content .modal-footer .btn-close-modal:hover, #modal-continue-task .modal-dialog .modal-content .modal-footer .btn-close-modal:hover, #modal-result .modal-dialog .modal-content .modal-footer .btn-close-modal:hover, #modal-type23-result .modal-dialog .modal-content .modal-footer .btn-close-modal:hover, #modal-login .modal-dialog .modal-content .modal-footer .btn-close-modal:hover, #modal-term .modal-dialog .modal-content .modal-footer .btn-modal-error-close:hover, #modal-error .modal-dialog .modal-content .modal-footer .btn-modal-error-close:hover, #modal-lesson .modal-dialog .modal-content .modal-footer .btn-modal-error-close:hover, #modal-exercise-active .modal-dialog .modal-content .modal-footer .btn-modal-error-close:hover, #modal-submit .modal-dialog .modal-content .modal-footer .btn-modal-error-close:hover, #modal-expired-submit .modal-dialog .modal-content .modal-footer .btn-modal-error-close:hover, #modal-continue-task .modal-dialog .modal-content .modal-footer .btn-modal-error-close:hover, #modal-result .modal-dialog .modal-content .modal-footer .btn-modal-error-close:hover, #modal-type23-result .modal-dialog .modal-content .modal-footer .btn-modal-error-close:hover, #modal-login .modal-dialog .modal-content .modal-footer .btn-modal-error-close:hover, #modal-term .modal-dialog .modal-content .modal-footer .btn-close-modal:focus, #modal-error .modal-dialog .modal-content .modal-footer .btn-close-modal:focus, #modal-lesson .modal-dialog .modal-content .modal-footer .btn-close-modal:focus, #modal-exercise-active .modal-dialog .modal-content .modal-footer .btn-close-modal:focus, #modal-submit .modal-dialog .modal-content .modal-footer .btn-close-modal:focus, #modal-expired-submit .modal-dialog .modal-content .modal-footer .btn-close-modal:focus, #modal-continue-task .modal-dialog .modal-content .modal-footer .btn-close-modal:focus, #modal-result .modal-dialog .modal-content .modal-footer .btn-close-modal:focus, #modal-type23-result .modal-dialog .modal-content .modal-footer .btn-close-modal:focus, #modal-login .modal-dialog .modal-content .modal-footer .btn-close-modal:focus, #modal-term .modal-dialog .modal-content .modal-footer .btn-modal-error-close:focus, #modal-error .modal-dialog .modal-content .modal-footer .btn-modal-error-close:focus, #modal-lesson .modal-dialog .modal-content .modal-footer .btn-modal-error-close:focus, #modal-exercise-active .modal-dialog .modal-content .modal-footer .btn-modal-error-close:focus, #modal-submit .modal-dialog .modal-content .modal-footer .btn-modal-error-close:focus, #modal-expired-submit .modal-dialog .modal-content .modal-footer .btn-modal-error-close:focus, #modal-continue-task .modal-dialog .modal-content .modal-footer .btn-modal-error-close:focus, #modal-result .modal-dialog .modal-content .modal-footer .btn-modal-error-close:focus, #modal-type23-result .modal-dialog .modal-content .modal-footer .btn-modal-error-close:focus, #modal-login .modal-dialog .modal-content .modal-footer .btn-modal-error-close:focus {
+	 opacity: 0.8;
+}
+ #modal-lesson {
+	 overflow-y: auto;
+}
+ #modal-lesson .modal-dialog {
+	 margin-top: 60px;
+}
+ #modal-lesson .modal-dialog .modal-content {
+	 padding-left: 15px;
+}
+ #modal-lesson .modal-dialog .modal-content .modal-header {
+	 background: #fff;
+	 justify-content: center;
+	 box-shadow: none;
+}
+ #modal-lesson .modal-dialog .modal-content .modal-header .modal-title {
+	 font-size: 36px;
+	 padding: 10px 0;
+	 text-align: center;
+	 color: #4db748;
+}
+ #modal-lesson .modal-dialog .modal-content .modal-footer .btn-modal-error-close {
+	 min-width: 150px;
+}
+ #modal-type23-result {
+	 overflow-y: auto;
+}
+ #modal-type23-result .modal-dialog {
+	 max-width: 550px;
+}
+ #modal-type23-result .modal-dialog .modal-content {
+	 padding-left: 0;
+}
+ #modal-type23-result .modal-dialog .modal-content .modal-header {
+	 position: unset;
+	 padding-left: 15px;
+}
+ #modal-type23-result .modal-dialog .modal-content .modal-header .btn-close-modal {
+	 padding-right: 0;
+}
+ #modal-type23-result .modal-dialog .modal-content .modal-body {
+	 padding-left: 15px;
+}
+ #modal-type23-result .modal-dialog .modal-content .modal-body .result-content {
+	 font-family: "Patrick Hand", cursive;
+	 font-style: normal;
+	 font-weight: normal;
+	 font-size: 24px;
+	 color: #ff6551;
+}
+ #modal-type23-result .modal-dialog .modal-content .modal-body .result-content img {
+	 width: 180px !important;
+	 margin-left: 15px;
+}
+ #modal-type23-result .modal-dialog .modal-content .modal-body {
+	 margin-top: 5px;
+}
+ #modal-result {
+	 overflow-y: auto;
+}
+ #modal-result .modal-dialog {
+	 max-width: 550px;
+}
+ #modal-result .modal-dialog .modal-content {
+	 background: linear-gradient(180deg, #5bce71 0%, #3fc646 83.85%);
+	 border-radius: 32px;
+	 padding-left: 0;
+}
+ #modal-result .modal-dialog .modal-content .modal-body {
+	 margin-top: 0;
+	 display: flex;
+	 justify-content: center;
+	 flex-direction: column;
+	 padding: 50px 30px;
+	 align-items: center;
+}
+ #modal-result .modal-dialog .modal-content .modal-body .modal-submit-image {
+	 margin-bottom: 46px;
+	 width: fit-content;
+}
+ #modal-result .modal-dialog .modal-content .modal-body .modal-submit-title {
+	 margin-bottom: 16px;
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 24px;
+	 line-height: 32px;
+	 text-align: center;
+	 color: #fff;
+}
+ #modal-result .modal-dialog .modal-content .modal-body .modal-submit-text {
+	 font-style: normal;
+	 font-size: 16px;
+	 line-height: 24px;
+	 text-align: center;
+	 color: #fff;
+	 margin-bottom: 35px;
+}
+ #modal-result .modal-dialog .modal-content .modal-body .btn-modal-error-close {
+	 text-decoration: none;
+	 color: #fff;
+	 padding: 15px 77px;
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 20px;
+	 line-height: 24px;
+	 text-align: center;
+	 border-radius: 12px;
+	 background-color: #f6b70f;
+	 box-shadow: 0 4px 0 0 #f49000;
+	 margin-bottom: 20px;
+	 display: inline-block;
+}
+ #modal-result .modal-dialog .modal-content .modal-body .btn-modal-error-close:focus, #modal-result .modal-dialog .modal-content .modal-body .btn-modal-error-close:hover {
+	 opacity: 0.8;
+}
+ #modal-submit, #modal-expired-submit {
+	 overflow-y: auto;
+}
+ #modal-submit .modal-dialog, #modal-expired-submit .modal-dialog {
+	 max-width: 550px;
+}
+ #modal-submit .modal-dialog .modal-content, #modal-expired-submit .modal-dialog .modal-content {
+	 background: linear-gradient(180deg, #5bce71 0%, #3fc646 83.85%);
+	 border-radius: 32px;
+	 padding-left: 0;
+}
+ #modal-submit .modal-dialog .modal-content .modal-body, #modal-expired-submit .modal-dialog .modal-content .modal-body {
+	 margin-top: 0;
+	 display: flex;
+	 justify-content: center;
+	 flex-direction: column;
+	 padding: 50px 30px 30px;
+	 align-items: center;
+}
+ #modal-submit .modal-dialog .modal-content .modal-body .modal-submit-image, #modal-expired-submit .modal-dialog .modal-content .modal-body .modal-submit-image {
+	 margin-bottom: 30px;
+	 width: fit-content;
+}
+ #modal-submit .modal-dialog .modal-content .modal-body .modal-submit-title, #modal-expired-submit .modal-dialog .modal-content .modal-body .modal-submit-title {
+	 margin-bottom: 16px;
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 24px;
+	 line-height: 32px;
+	 text-align: center;
+	 color: #fff;
+}
+ #modal-submit .modal-dialog .modal-content .modal-body .modal-submit-text, #modal-expired-submit .modal-dialog .modal-content .modal-body .modal-submit-text {
+	 font-style: normal;
+	 font-size: 16px;
+	 line-height: 24px;
+	 text-align: center;
+	 color: #fff;
+	 margin-bottom: 20px;
+}
+ #modal-submit .modal-dialog .modal-content .modal-body .btn-exercise--submit, #modal-expired-submit .modal-dialog .modal-content .modal-body .btn-exercise--submit {
+	 text-decoration: none;
+	 color: #fff;
+	 padding: 15px 77px;
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 20px;
+	 line-height: 24px;
+	 text-align: center;
+	 border-radius: 12px;
+	 background-color: #f6b70f;
+	 box-shadow: 0 4px 0 0 #f49000;
+	 margin-bottom: 20px;
+	 display: inline-block;
+}
+ #modal-submit .modal-dialog .modal-content .modal-body .btn-exercise--submit:focus, #modal-expired-submit .modal-dialog .modal-content .modal-body .btn-exercise--submit:focus, #modal-submit .modal-dialog .modal-content .modal-body .btn-exercise--submit:hover, #modal-expired-submit .modal-dialog .modal-content .modal-body .btn-exercise--submit:hover {
+	 opacity: 0.8;
+}
+ #modal-submit .modal-dialog .modal-content .modal-body .btn-modal-error-close, #modal-expired-submit .modal-dialog .modal-content .modal-body .btn-modal-error-close {
+	 font-style: normal;
+	 font-weight: 500;
+	 font-size: 16px;
+	 line-height: 24px;
+	 text-align: center;
+	 text-decoration: underline;
+	 color: #fff;
+}
+ #modal-submit .modal-dialog .modal-content .modal-body .btn-modal-error-close:focus, #modal-expired-submit .modal-dialog .modal-content .modal-body .btn-modal-error-close:focus, #modal-submit .modal-dialog .modal-content .modal-body .btn-modal-error-close:hover, #modal-expired-submit .modal-dialog .modal-content .modal-body .btn-modal-error-close:hover {
+	 opacity: 0.8;
+}
+ #modal-exercise-active {
+	 overflow-y: auto;
+}
+ #modal-exercise-active .modal-dialog {
+	 max-width: 700px;
+}
+ #modal-exercise-active .modal-dialog .modal-content {
+	 padding-left: 0;
+}
+ #modal-exercise-active .modal-dialog .modal-content .modal-header {
+	 position: unset;
+	 padding-left: 15px;
+}
+ #modal-exercise-active .modal-dialog .modal-content .modal-header .btn-close-modal {
+	 padding-right: 0;
+}
+ #modal-exercise-active .modal-dialog .modal-content .modal-body {
+	 margin-top: 5px;
+}
+ #modal-exercise-active .modal-dialog .modal-content .modal-body .font-weight-bold {
+	 font-weight: bold;
+}
+ #modal-exercise-active .modal-dialog .modal-content .modal-body .input-code {
+	 padding: 12px 20px;
+	 margin: 10px 0 5px;
+	 display: inline-block;
+	 border: 1px solid #ccc;
+	 box-sizing: border-box;
+	 border-radius: 5px;
+	 color: #000;
+	 box-shadow: 0 0px 5px 0 #000, 0 0px 5px 0 #000;
+	 width: auto;
+}
+ #modal-exercise-active .modal-dialog .modal-content .modal-body .input-code:focus-visible {
+	 outline: none;
+}
+ #modal-exercise-active .modal-dialog .modal-content .modal-body .exercise-grade {
+	 font-size: 36px;
+	 text-align: center;
+}
+ #modal-exercise-active .modal-dialog .modal-content .modal-body .exercise-duration {
+	 font-size: 18px;
+	 text-align: center;
+}
+ #modal-exercise-active .modal-dialog .modal-content .modal-body .exercise-duration > span {
+	 color: #56c33f;
+}
+ #modal-exercise-active .modal-dialog .modal-content .modal-body .exercise-requirement {
+	 text-align: center;
+	 font-size: 18px;
+}
+ #modal-exercise-active .modal-dialog .modal-content .modal-footer .btn-exercise--active {
+	 background: linear-gradient(90.16deg, #8ee048 19.02%, #66ce5c 87.44%);
+	 border-radius: 12px;
+	 color: #fff;
+	 padding: 15px;
+	 margin-right: 10px;
+	 font-weight: bold;
+	 font-size: 16px;
+	 text-decoration: none;
+	 margin-bottom: 0;
+	 margin-top: 0;
+	 line-height: 18px;
+	 text-align: center;
+	 min-width: 120px;
+}
+ #modal-exercise-active .modal-dialog .modal-content .modal-footer .btn-exercise--active:hover, #modal-exercise-active .modal-dialog .modal-content .modal-footer .btn-exercise--active:focus {
+	 opacity: 0.8;
+}
+ #modal-exercise-active .modal-dialog .modal-content .modal-footer .btn-exercise--start {
+	 border: none;
+	 background: linear-gradient(90.16deg, #8ee048 19.02%, #66ce5c 87.44%);
+	 border-radius: 12px;
+	 color: #fff;
+	 padding: 15px;
+	 margin-right: 10px;
+	 font-weight: bold;
+	 font-size: 16px;
+	 text-decoration: none;
+	 margin-bottom: 0;
+	 margin-top: 0;
+	 line-height: 18px;
+	 text-align: center;
+	 min-width: 120px;
+}
+ #modal-exercise-active .modal-dialog .modal-content .modal-footer .btn-exercise--start:hover, #modal-exercise-active .modal-dialog .modal-content .modal-footer .btn-exercise--start:focus {
+	 opacity: 0.8;
+}
+ #modal-exercise-active .modal-dialog .modal-content .modal-footer .btn-modal-error-close {
+	 min-width: 120px;
+	 text-align: center;
+}
+ #modal-continue-task {
+	 overflow-y: auto;
+}
+ #modal-continue-task .modal-dialog {
+	 max-width: 700px;
+}
+ #modal-continue-task .modal-dialog .modal-content {
+	 padding-left: 0;
+}
+ #modal-continue-task .modal-dialog .modal-content .modal-header {
+	 position: unset;
+	 padding-left: 15px;
+}
+ #modal-continue-task .modal-dialog .modal-content .modal-header .btn-close-modal {
+	 padding-right: 0;
+}
+ #modal-continue-task .modal-dialog .modal-content .modal-body {
+	 margin-top: 5px;
+	 padding-right: 15px;
+	 padding-left: 15px;
+}
+ #modal-continue-task .modal-dialog .modal-content .modal-body .font-weight-bold {
+	 font-weight: bold;
+}
+ #modal-continue-task .modal-dialog .modal-content .modal-footer .btn-exercise--newstart {
+	 border: none;
+	 background: linear-gradient(90.16deg, #8ee048 19.02%, #66ce5c 87.44%);
+	 border-radius: 12px;
+	 color: #fff;
+	 padding: 15px;
+	 margin-right: 10px;
+	 font-weight: bold;
+	 font-size: 16px;
+	 text-decoration: none;
+	 margin-bottom: 0;
+	 margin-top: 0;
+	 line-height: 18px;
+	 text-align: center;
+	 min-width: 120px;
+}
+ #modal-continue-task .modal-dialog .modal-content .modal-footer .btn-exercise--newstart:hover, #modal-continue-task .modal-dialog .modal-content .modal-footer .btn-exercise--newstart:focus {
+	 opacity: 0.8;
+}
+ #modal-continue-task .modal-dialog .modal-content .modal-footer .btn-modal-error-close1 {
+	 background: #f6b70f;
+	 min-width: 120px;
+	 text-align: center;
+	 text-decoration: none;
+	 color: #fff;
+	 font-size: 16px;
+	 line-height: 18px;
+	 padding: 15px 30px;
+	 border-radius: 10px;
+	 font-weight: bold;
+	 margin: 0;
+}
+ #modal-continue-task .modal-dialog .modal-content .modal-footer .btn-modal-error-close1:hover, #modal-continue-task .modal-dialog .modal-content .modal-footer .btn-modal-error-close1:focus {
+	 opacity: 0.8;
+}
+ .large-items {
+	 font-weight: 700;
+	 font-size: 18px;
+	 line-height: 20px;
+	 font-style: normal;
+	 color: #252b42;
+}
+ .small-items {
+	 font-size: 14px;
+	 line-height: 20px;
+	 font-style: normal;
+	 color: #252b42;
+}
+ @media (min-width: 576px) {
+	 #modal-term .modal-dialog {
+		 max-width: 784px;
+	}
+	 #modal-lesson .modal-dialog {
+		 max-width: 900px;
+	}
+	 #modal-error .modal-dialog {
+		 max-width: 600px;
+	}
+}
+ @media (max-width: 1280px) {
+	 .section-hero .hero-wrapper .hero-section-content .hero-section-image .hero-ellipse_img {
+		 width: 80%;
+	}
+}
+ @media (max-width: 1199px) {
+	 .section-hero .hero-wrapper .hero-section-content .hero-section-image .hero-ellipse_img {
+		 left: 80px;
+	}
+	 .section-introduce .section-video {
+		 margin-right: 50px;
+		 width: calc(55% - 25px);
+	}
+	 .section-introduce .section-intro-text {
+		 width: calc(45% - 25px);
+	}
+	 .section-introduce .section-intro-text .clone-hr {
+		 margin-bottom: 20px;
+	}
+	 .section-introduce .section-intro-text .intro-title {
+		 font-size: 32px;
+		 line-height: 40px;
+		 margin-bottom: 20px;
+	}
+	 .section-introduce .section-intro-text .intro-description {
+		 margin-bottom: 20px;
+	}
+}
+ @media (max-width: 1023px) {
+	 .section-instruction {
+		 margin-bottom: 70px;
+	}
+	 .section-instruction .instruction-boxes.on-desktop {
+		 display: none;
+	}
+	 .section-instruction .instruction-boxes.on-mobile {
+		 display: flex;
+	}
+	 .section-instruction .instruction-boxes.on-mobile .instruction-card {
+		 margin-top: 0 !important;
+		 margin-bottom: 0 !important;
+	}
+	 .section-hero .hero-wrapper .hero-section-content .hero-section-image .hero-ellipse_img {
+		 left: 80px;
+		 bottom: 50px;
+	}
+	 .section-hero .hero-wrapper .hero-section-content .hero-section-text {
+		 width: calc(39% + 41.53px);
+		 margin-right: 70px;
+	}
+	 .section-hero .hero-wrapper .hero-section-content .hero-section-text .hero-title {
+		 font-size: 32px;
+		 line-height: 40px;
+		 margin-bottom: 25px;
+	}
+	 .section-hero .hero-wrapper .hero-section-content .hero-section-text .hero-description {
+		 margin-bottom: 25px;
+	}
+	 .section-hero .hero-wrapper .hero-section-content .hero-section-text .hero-link .link-app-store {
+		 margin-right: 0;
+	}
+	 .section-hero .hero-wrapper .hero-section-content .hero-section-text .hero-link .link-app-store img {
+		 width: 82%;
+	}
+	 .section-hero .hero-wrapper .hero-section-content .hero-section-text .hero-link .link-gg-play img {
+		 width: 82%;
+	}
+}
+ @media (max-width: 991px) {
+	 .section-benefits {
+		 margin-top: 60px;
+	}
+	 .section-benefits .section-intro-wrapper {
+		 margin-bottom: 0;
+	}
+	 .section-benefits .benefit-title {
+		 margin-bottom: 50px;
+	}
+	 .section-benefits .benefit-boxes .benefit-card {
+		 width: 100%;
+		 margin-bottom: 70px;
+	}
+	 .section-benefits .benefit-boxes .benefit-card.third {
+		 margin-bottom: 50px;
+	}
+	 .section-benefits .benefit-boxes .benefit-card.second, .section-benefits .benefit-boxes .benefit-card.first {
+		 margin-right: 0;
+	}
+	 header .header-wrapper .logo-wrapper .logo-page .logo-text {
+		 font-size: 14px;
+	}
+	 header .header-wrapper .header-navigation-wrapper .item .btn-navigation {
+		 font-size: 14px;
+	}
+	 .section-introduce .section-video {
+		 margin-right: 30px;
+		 width: calc(55% - 15px);
+	}
+	 .section-introduce .section-intro-text {
+		 width: calc(45% - 15px);
+	}
+	 .section-hero .hero-wrapper .hero-section-content .hero-section-image .hero-ellipse_img {
+		 left: 75px;
+	}
+	 .section-featured .section-featured-content .featured-boxes .featured-card {
+		 width: calc(50% - 18px);
+	}
+	 .section-featured .section-featured-content .featured-boxes .featured-card.second, .section-featured .section-featured-content .featured-boxes .featured-card.fourth {
+		 margin-right: 0;
+	}
+	 .section-featured .section-featured-content .featured-boxes .featured-card.third {
+		 margin-right: 36px;
+	}
+	 .section-featured .section-featured-content .featured-boxes .featured-card.first, .section-featured .section-featured-content .featured-boxes .featured-card.second, .section-featured .section-featured-content .featured-boxes .featured-card.third {
+		 padding-bottom: 40px;
+	}
+}
+ @media (max-width: 850px) {
+	 .section-hero .hero-wrapper .hero-section-content .hero-section-image .hero-ellipse_img {
+		 left: 60px;
+	}
+}
+ @media (max-width: 767px) {
+	 .section-benefits .benefit-title {
+		 font-size: 28px;
+		 line-height: 32px;
+	}
+	 #modal-exercise-active .modal-dialog .modal-content .modal-body .exercise-grade {
+		 font-size: 24px;
+	}
+	 .section-marquee {
+		 margin-top: 60px;
+	}
+	 header .header-wrapper {
+		 padding: 10px 15px;
+	}
+	 header .header-wrapper .header-navigation-wrapper {
+		 display: none;
+	}
+	 header .header-wrapper .icon-bars {
+		 cursor: pointer;
+		 padding: 5px 10px;
+		 display: flex;
+		 align-self: flex-start;
+	}
+	 header .header-wrapper .icon-bars .item-icon {
+		 display: flex;
+		 font-size: 30px;
+		 align-items: center;
+	}
+	 header .header-wrapper .icon-bars .item-icon .fa-times {
+		 -webkit-text-stroke: 2px #fff;
+		 width: 26.25px;
+	}
+	 .section-introduce {
+		 padding-top: 67px;
+		 padding-bottom: 47px;
+	}
+	 .section-introduce .section-intro-wrapper {
+		 flex-wrap: wrap;
+	}
+	 .section-introduce .section-video {
+		 width: 100%;
+		 margin-right: 0;
+		 margin-bottom: 35px;
+	}
+	 .section-introduce .section-video .home-youtube-video {
+		 height: 400px;
+	}
+	 .section-introduce .section-intro-text {
+		 width: 100%;
+		 max-width: unset;
+	}
+	 .section-hero .hero-wrapper .hero-section-content {
+		 flex-wrap: wrap-reverse;
+		 justify-content: center;
+		 padding-top: 13px;
+	}
+	 .section-hero .hero-wrapper .hero-section-content .hero-section-text {
+		 width: 100%;
+		 margin-right: 0;
+	}
+	 .section-hero .hero-wrapper .hero-section-content .hero-section-text .hero-description {
+		 max-width: unset;
+	}
+	 .section-hero .hero-wrapper .hero-section-content .hero-section-image {
+		 width: 100%;
+		 margin-bottom: 40px;
+	}
+	 .section-hero .hero-wrapper .hero-section-content .hero-section-image .hero-ellipse-mobile {
+		 position: absolute;
+		 top: 65px;
+		 right: calc(50% - 147px);
+		 z-index: 0;
+	}
+	 .section-instruction {
+		 margin-bottom: 34px;
+	}
+	 .section-instruction .instruction-title {
+		 font-size: 20px;
+		 line-height: 24px;
+		 margin-bottom: 21px;
+	}
+	 .section-featured .section-featured-content {
+		 padding-top: 43px;
+		 padding-bottom: 38px;
+	}
+	 .section-featured .section-featured-content .clone-hr {
+		 margin-bottom: 20px;
+	}
+	 .section-featured .section-featured-content .featured-title {
+		 font-size: 24px;
+		 line-height: 29px;
+		 margin-bottom: 15px;
+	}
+	 .section-featured .section-featured-content .featured-sub-title {
+		 margin-bottom: 30px;
+	}
+	 .section-featured .section-featured-content .featured-boxes .featured-card {
+		 width: calc(50% - 8px);
+		 margin-bottom: 16px;
+	}
+	 .section-featured .section-featured-content .featured-boxes .featured-card.first, .section-featured .section-featured-content .featured-boxes .featured-card.third {
+		 margin-right: 16px;
+	}
+	 .section-featured .section-featured-content .featured-boxes .featured-card .featured-icon {
+		 margin-bottom: 23px;
+	}
+}
+ @media (max-width: 575px) {
+	 .section-marquee {
+		 margin-top: 40px;
+	}
+	 .section-benefits .benefit-title {
+		 font-size: 24px;
+	}
+	 .section-introduce .section-video .home-youtube-video {
+		 height: 338px;
+	}
+	 .section-introduce .section-intro-text .clone-hr {
+		 margin-bottom: 15px;
+	}
+	 .section-introduce .section-intro-text .intro-title {
+		 font-size: 24px;
+		 margin-bottom: 15px;
+	}
+	 .section-introduce .section-intro-text .intro-description {
+		 margin-bottom: 15px;
+	}
+	 .section-featured .section-featured-content .featured-boxes .featured-card {
+		 width: 100%;
+		 margin-right: 0 !important;
+	}
+}
+ @media (max-width: 480px) {
+	 .section-marquee .marquee-mobile .image-icon {
+		 width: calc(50% - 15px);
+	}
+	 .section-marquee .marquee-mobile .image-icon:nth-child(2n+1) {
+		 margin-right: 30px !important;
+	}
+	 .section-marquee .marquee-mobile .image-icon:not(:nth-child(3n+3)) {
+		 margin-right: unset;
+	}
+}
+ @media (max-width: 450px) {
+	 .section-hero .hero-wrapper .hero-section-content .hero-section-image .hero-avatar {
+		 margin-left: unset;
+		 margin-right: unset;
+	}
+	 .section-hero .hero-wrapper .hero-section-content .hero-section-image .hero-ellipse-mobile {
+		 left: 40px;
+	}
+	 #modal-submit .modal-dialog, #modal-expired-submit .modal-dialog {
+		 margin-right: auto;
+		 margin-left: auto;
+	}
+	 #modal-submit .modal-dialog .modal-content, #modal-expired-submit .modal-dialog .modal-content {
+		 border-radius: 20px;
+	}
+	 #modal-submit .modal-dialog .modal-content .modal-body, #modal-expired-submit .modal-dialog .modal-content .modal-body {
+		 padding: 30px 15px;
+	}
+	 #modal-submit .modal-dialog .modal-content .modal-body .btn-exercise--submit, #modal-expired-submit .modal-dialog .modal-content .modal-body .btn-exercise--submit {
+		 padding: 12px 50px;
+		 font-size: 18px;
+		 line-height: unset;
+	}
+	 #modal-result .modal-dialog {
+		 margin-right: auto;
+		 margin-left: auto;
+	}
+	 #modal-result .modal-dialog .modal-content {
+		 border-radius: 20px;
+	}
+	 #modal-result .modal-dialog .modal-content .modal-body {
+		 padding: 30px 15px;
+	}
+	 #modal-result .modal-dialog .modal-content .modal-body .btn-modal-error-close {
+		 padding: 12px 50px;
+		 font-size: 18px;
+		 line-height: unset;
+	}
+}
+ @media (max-width: 438px) {
+	 #modal-exercise-active .modal-dialog .modal-content .modal-body .section-code-active {
+		 align-items: unset;
+	}
+	 #modal-exercise-active .modal-dialog .modal-content .modal-body .input-code {
+		 width: 100%;
+	}
+	 #modal-exercise-active .modal-dialog .modal-content .modal-footer .btn-exercise--active, #modal-exercise-active .modal-dialog .modal-content .modal-footer .btn-modal-error-close {
+		 min-width: 115px;
+	}
+	 #modal-term .modal-dialog .modal-content .modal-body {
+		 margin-top: 75.8px;
+		 padding-top: 10px;
+	}
+}
+ 

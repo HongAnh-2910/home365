@@ -1,0 +1,149 @@
+.section-dashboard {
+    .section-packages {
+        max-width: 1258px;
+        position: relative;
+        margin-right: auto;
+        margin-left: auto;
+
+        .section-package-title {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 32px;
+            text-align: center;
+            color: $green-darker;
+            margin-bottom: 30px;
+        }
+
+        .package-boxes {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+            //align-items: center;
+            //max-width: 900px;
+
+            .package-card {
+                padding: 30px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: $yellow-lighter;
+                border: 1px solid $pale-yellow;
+                border-radius: 16px;
+                max-width: 400px;
+
+                &:nth-child(2n+1) {
+                    margin-right: 30px;
+                }
+
+                .card-service-image {
+                    margin-bottom: 20px;
+                }
+
+                .card-service-name {
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    color: $black-lighter;
+                    margin-bottom: 20px;
+                }
+
+                .card-service-description {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    color: $gray-highter;
+                    margin-bottom: 20px;
+                }
+
+                .card-service-footer {
+                    margin-top: auto;
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                    padding-top: 20px;
+                    border-top: 1px solid $yellow-blur;
+                    align-items: center;
+
+                    .card-price {
+                        font-weight: bold;
+                    }
+
+                    .btn-buy-now {
+                        background: $yellow;
+                        border-radius: 12px;
+                        box-shadow: 0 4px 0 0 $warning;
+                        padding: 10px 15px;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 20px;
+                        text-align: center;
+                        color: $white;
+                        text-decoration: none;
+
+                        &:hover,
+                        &:focus {
+                            opacity: 0.8;
+                        }
+                    }
+                }
+            }
+        }
+
+        .buttons-back {
+            display: flex;
+            justify-content: center;
+
+            .btn--back-dashboard {
+                background: $red-light;
+                border-radius: 12px;
+                padding: 15px;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 24px;
+                text-align: center;
+                color: $white;
+                min-width: 150px;
+                text-decoration: none;
+                box-shadow: 0 4px 0 0 $red-dark;
+
+                &:focus,
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .section-dashboard {
+        .section-packages {
+            .section-package-title {
+                font-size: 24px;
+            }
+
+            .package-boxes {
+                .package-card {
+                    padding: 30px 15px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .section-dashboard {
+        .section-packages {
+            .package-boxes {
+                flex-direction: column;
+                align-items: center;
+
+                .package-card {
+                    margin-right: 0 !important;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}

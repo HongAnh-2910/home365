@@ -1,0 +1,433 @@
+.section-list-test {
+    padding-bottom: 30px;
+
+    .bg-list-test {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -2;
+    }
+
+    .slick-track {
+        margin-left: unset;
+        margin-right: unset;
+    }
+
+    .wp__bg--skill {
+        .content__lesson-skill {
+            max-width: 1355px;
+            margin: 0px auto;
+            padding: 0px 40px;
+
+            .title__lesson-skill {
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 50px;
+                color:  #252B42;
+                padding-top: 59px;
+                text-transform: uppercase;
+                margin-bottom: 42px;
+            }
+            .wp__slide--images-skill {
+                margin-bottom: 40px;
+
+                .title__slide--skill {
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 29px;
+                    text-transform: uppercase;
+                    padding-left: 30px;
+                    margin-bottom: 22px;
+                }
+
+                .your-test-class {
+                    max-width: 1290px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin: 0px auto;
+                    background: #F8FBFE;
+                    box-shadow: 0px 10px 50px rgba(1, 13, 130, 0.12);
+                    border-radius: 32px;
+                    padding: 30px 30px 0;
+                    //cursor: pointer;
+
+                    .item__images--skill {
+                        cursor: pointer;
+                        text-decoration: none;
+                        text-align: center;
+                        width: calc(25% - 22.5px);
+                        margin-bottom: 30px;
+
+                        &.btn-none--active {
+                            .none-active-state {
+                                position: absolute;
+                                top: 0;
+                                right: 0;
+                                left: 0;
+                                bottom: 39px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+
+                                img {
+                                    padding: 11px;
+                                    background: linear-gradient(0deg, #FEA238 0.02%, #F8CC21 99.99%);
+                                    border-radius: 50%;
+                                }
+                            }
+                        }
+
+                        &:not(:nth-child(4n+4)) {
+                            margin-right: 30px;
+                        }
+
+                        >img {
+                            display: inline-block;
+                            width: 100%;
+                        }
+                    }
+
+                    .title__img--skill {
+                        //styleName: Body 1/Medium - 16px;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 24px;
+                        color: #252B42;
+                        margin-top: 15px;
+                        padding: 0px 15px;
+                    }
+                }
+
+                .button__prev--skill {
+                    cursor: pointer;
+                    left: -31px;
+                    top: 30%;
+                    z-index: 999;
+                    position: absolute;
+                    padding: 28px 33px;
+                    color: #F49000;
+                    display: inline-block;
+                    background: white;
+                    border-radius: 56px;
+                    box-shadow: 0px 10px 50px rgba(1, 13, 130, 0.1);
+                }
+
+                .button__next--skill {
+                    cursor: pointer;
+                    right: -30px;
+                    top: 30%;
+                    z-index: 999;
+                    position: absolute;
+                    padding: 28px 33px;
+                    color: #F49000;
+                    display: inline-block;
+                    background: white;
+                    border-radius: 56px;
+                    box-shadow: 0px 10px 50px rgba(1, 13, 130, 0.1);
+                }
+
+                .button__next--skill:hover {
+                    color: white;
+                    background: #F49000;
+                }
+
+                .button__prev--skill:hover {
+                    color: white;
+                    background: #F49000;
+                }
+            }
+        }
+    }
+}
+
+
+//modal
+
+.modal-content.modal-content-lesson {
+    background: #FFFEEB;
+    border-radius: 16px;
+    padding: 0px 26px 0px 45px;
+
+    .modal-header {
+        padding-top: 25px !important;
+        border: none;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+
+        .close.close_lesson {
+            background: #000;
+            border-radius: 50%;
+            padding: 0 12.95px;
+            border: none;
+
+            span.icon__lesson {
+                font-size: 28px;
+                color: white;
+                display: flex;
+            }
+        }
+
+        .modal-title.modal_title--lesson {
+            //styleName: H3/24px;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 42px;
+        }
+    }
+
+    .modal-body {
+        .total_view-lesson {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            color: #FF6551;
+            margin-left: 9px;
+            margin-top: 2px;
+        }
+
+        .info__different--lesson {
+            .info__different-1 {
+                //styleName: Body 1/Regular - 16px;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                display: inline-block;
+                margin-right: 88px;
+                margin-top: 24px;
+
+                span.info__different-no {
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 24px;
+                }
+
+            }
+        }
+        p.content__lesson--text {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            color: #4F4F4F;
+            margin: 16px 0px 24px 0px;
+            padding-right: 20px;
+        }
+
+        .video__lesson-ajax {
+            margin-top: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+
+            iframe {
+                width: 100%;
+                height: 453px;
+            }
+        }
+
+        ul.wp_youtube-lesson {
+            list-style: none;
+            padding-left: 0px;
+                li.item_youtube--lesson {
+                    margin-bottom: 16px;
+                    cursor: pointer;
+                    .img__item--right {
+
+                        margin-left: 20px;
+
+                        .title__item--right {
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 24px;
+                            color : #252B42;
+                        }
+                        .title__item--s {
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 20px;
+                            color: #FF6551;
+                        }
+                    }
+                }
+        }
+    }
+
+    .modal-footer {
+        border: none;
+    }
+}
+
+@media (max-width: 1349px) {
+    .section-list-test {
+        .wp__bg--skill {
+            .content__lesson-skill {
+                padding: 0 15px;
+
+                .wp__slide--images-skill {
+                    .your-test-class {
+                        padding: 30px 15px 0;
+
+                        .item__images--skill {
+                            width: calc(33.33% - 20px);
+
+                            &:not(:nth-child(3n+3)) {
+                                margin-right: 30px;
+                            }
+
+                            &:not(:nth-child(4n+4)) {
+                                &:nth-child(3n+3) {
+                                    margin-right: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .section-list-test {
+        .wp__bg--skill {
+            .content__lesson-skill {
+                .wp__slide--images-skill {
+                    .title__slide--skill {
+                        margin-left: auto;
+                        margin-right: auto;
+                        max-width: 630px;
+                    }
+
+                    .your-test-class {
+                        max-width: 630px;
+
+                        .item__images--skill {
+                            width: calc(50% - 10px);
+                            &:nth-child(2n+1) {
+                                margin-right: 20px;
+                            }
+
+                            &:not(:nth-child(3n+3)) {
+                                &:not(:nth-child(2n+1)) {
+                                margin-right: 0;
+                            }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .section-list-test {
+        .wp__bg--skill {
+            .content__lesson-skill {
+                .wp__slide--images-skill {
+                    .your-test-class {
+                        .item__images--skill {
+                            >img {
+                                width: 90%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .section-list-test {
+        .wp__bg--skill {
+            .content__lesson-skill {
+                .wp__slide--images-skill {
+                    .your-test-class {
+                        justify-content: center;
+
+                        .item__images--skill {
+                            width: 100%;
+                            margin-right: 0 !important;
+
+                            >img {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.main_container iframe#video_show {
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 992px) {
+    .modal-lg, .modal-xl {
+        max-width: 890px !important;
+    }
+}
+
+//responsive
+
+@media (max-width: 1000px) {
+    .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .your-test-class .title__img--skill {
+        font-size: 16px;
+        padding: 0 30px;
+    }
+    .modal-content.modal-content-lesson {
+        padding: 0px 15px 0px 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .your-test-class .title__img--skill {
+        font-size: 14px;
+        margin: 20px 0px 20px 0px;
+    }
+
+    .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .your-test-class .item__images--skill.btn-none--active .none-active-state {
+        bottom: 64px;
+    }
+
+    .section-list-test .wp__bg--skill .content__lesson-skill .title__lesson-skill {
+        font-size: 33px;
+    }
+
+    .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .title__slide--skill {
+        font-size: 22px;
+    }
+
+    .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill  {
+
+        .button__prev--skill {
+            padding:19px 24px;
+            top: 37%;
+        }
+
+        .button__next--skill {
+            padding:19px 24px;
+            top: 37%;
+        }
+    }
+
+}
+
+@media (max-width: 480px) {
+    .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .your-test-class .title__img--skill {
+
+    }
+}

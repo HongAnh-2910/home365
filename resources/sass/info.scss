@@ -1,0 +1,123 @@
+
+
+.wp__terms {
+
+    margin-top: 80px;
+
+    .border__header--terms {
+        background: linear-gradient(
+                180deg, #5BCE71 0%, #3FC646 83.85%);
+        width: 94px;
+        height: 7px;
+        margin-bottom: 35px;
+    }
+
+    .title__header--terms {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50px;
+        letter-spacing: 0.20000000298023224px;
+        //text-align: center;
+        margin-top: 36px;
+        margin-bottom: 21px;
+    }
+
+    .wp_content-terms {
+        margin-bottom: 30px;
+        padding: 0px 15px;
+
+        .content_terms {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            color: #252B42;
+            margin-top: 15px;
+
+            .content_terms--bold {
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 24px;
+                text-align: left;
+                display: block;
+                text-transform: uppercase;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
+
+ol {
+    li.item__security--info {
+        font-weight: bold;
+        margin-left: -19px;
+
+        p.content_item-security {
+            font-weight: 400;
+            margin-left: -14px;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: left;
+            color: #252B42;
+            margin-top: 15px;
+        }
+    }
+}
+
+
+//responsive
+
+@media (min-width: 768px) and (max-width:1024px) {
+    .wp__terms {
+
+        .border__header--terms {
+            margin-bottom: 15px;
+        }
+
+        .wp_content-terms {
+            padding: 0px 15px;
+        }
+    }
+}
+
+/* Ipad doc (768x1024) */
+@media screen and (max-width:767px){
+    .wp__terms  {
+
+        .border__header--terms {
+            margin-bottom: 30px;
+        }
+
+        .wp_content-terms {
+            padding: 0px 15px;
+        }
+
+        .title__header--terms {
+            font-size: 30px;
+            margin-top: 16px;
+        }
+
+        .wp_content-terms .content_terms {
+            font-size: 14px;
+            margin-top: 0px;
+        }
+    }
+
+}
+
+@media screen and (max-width:380px) {
+    .wp__terms {
+
+        .wp_content-terms {
+            font-size: 15px;
+            padding: 0px 15px;
+        }
+
+        .title__header--terms {
+            font-size: 25px;
+            margin-top: 16px;
+        }
+    }
+}
+
+

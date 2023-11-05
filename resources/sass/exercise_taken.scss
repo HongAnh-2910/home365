@@ -1,0 +1,466 @@
+.section-exercise-taken {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 1024px;
+    padding: 30px 15px 150px;
+
+    .taken-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -2;
+    }
+
+    .header-wrapper {
+        max-width: 1230px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+
+        .back-to-dashboard {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .header-text {
+            padding: 5px;
+            border: $green-darker dashed 4px;
+            border-radius: 20px;
+
+            .item-text {
+                background-color: $green-darker;
+                color: $white;
+                padding: 25px 68px;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 40px;
+                line-height: 49px;
+                text-align: center;
+                border-radius: 20px;
+            }
+        }
+    }
+
+    .detail-content {
+        max-width: 1090px;
+        border-radius: 80px;
+        border: 20px solid $yellow-dark;
+        box-shadow: 0 4px 11px rgba(0, 0, 0, 0.1);
+        background-color: $white;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 60px 45px 50px;
+
+        .exercise-class {
+            position: absolute;
+            right: -36px;
+            top: -70px;
+            border: $red-light dashed 4px;
+            border-radius: 20px;
+            padding: 5px;
+            display: flex;
+            width: fit-content;
+
+            .class-item {
+                background-color: $red-light;
+                color: $white;
+                padding: 22px 60px;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 40px;
+                line-height: 49px;
+                text-align: center;
+                border-radius: 20px;
+            }
+        }
+
+        .exercise-detail-title {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;
+            text-align: center;
+            color: $black-lighter;
+            margin-bottom: 72px;
+            max-width: 750px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .exercise-detail-content {
+            display: flex;
+            max-width: 630px;
+            margin-right: auto;
+            margin-left: auto;
+            padding-bottom: 58px;
+
+            .exercise-detail-time {
+                width: 50%;
+
+                .time-title {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    color: $black-lighter;
+                    margin-bottom: 19px;
+                }
+
+                .exercise-start-time {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 12px;
+
+                    img {
+                        margin-right: 18px;
+                    }
+
+                    .time-text-start {
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: $black-lighter;
+
+                        .time-item {
+                            color: $orange-lighter;
+                        }
+                    }
+                }
+            }
+        }
+
+        .exercise-taken-summary {
+            //max-width: 1090px;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 35px;
+            max-width: 625px;
+
+            .exercise-card {
+                width: calc(25% - 41.75px);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                &:not(:last-child) {
+                    margin-right: 55.66px;
+                }
+
+                .card-item {
+                    padding: 13px;
+                    border-radius: 7px;
+                    transform: rotate(45deg);
+
+                    &.highest-core {
+                        background-color: #9B51E0;
+
+                        .score-item {
+                            color: #9B51E0;
+                        }
+                    }
+
+                    &.average-score {
+                        background-color: #F6B70F;
+
+                        .score-item {
+                            color: #F6B70F;
+                        }
+                    }
+
+                    &.lowest-score {
+                        background-color: #8492A6;
+
+                        .score-item {
+                            color: #8492A6;
+                        }
+                    }
+
+                    &.your-score {
+                        background-color: #F92D2D;
+
+                        .score-item {
+                            color: #F92D2D;
+                        }
+                    }
+
+                    .score-item {
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 20px;
+                        line-height: 24px;
+                        text-align: center;
+                        padding: 28px 15.8px;
+                        width: 80px;
+                        background-color: $white;
+                        border-radius: 50%;
+                        transform: rotate(-45deg);
+                    }
+                }
+
+                .card-score-text {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: $black-lighter;
+                    margin-top: 25px;
+                }
+            }
+        }
+
+        .exercise-taken-link {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 50px;
+
+            .btn--exercise-link {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                color: $green-light;
+
+                &:hover,
+                &:focus {
+                    opacity: 0.8;
+                }
+
+                &.first {
+                    margin-right: 110px;
+                }
+            }
+        }
+
+        .exercise-taken-button {
+            display: flex;
+            justify-content: center;
+
+            .button-exercise--detail {
+                background: linear-gradient(90.16deg, #8EE048 19.02%, #66CE5C 87.44%);
+                border-radius: 12px;
+                padding: 17px 15px;
+                min-width: 242px;
+                color: $white;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 24px;
+                text-align: center;
+                text-decoration: none;
+
+                &:hover,
+                &:focus {
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1149px) {
+    .section-exercise-taken {
+        .header-wrapper {
+            .header-text {
+                .item-text {
+                    padding: 20px 40px;
+                    font-size: 36px;
+                    line-height: unset;
+                }
+            }
+        }
+
+        .detail-content {
+            .exercise-class {
+                right: -20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .section-exercise-taken {
+        .header-wrapper {
+            .header-text {
+                .item-text {
+                    padding: 15px 20px;
+                    line-height: unset;
+                    font-size: 32px;
+                }
+            }
+        }
+
+        .detail-content {
+            padding: 60px 30px 50px;
+
+            .exercise-class {
+                .class-item {
+                    padding: 15px 30px;
+                    line-height: unset;
+                    font-size: 32px;
+                }
+            }
+
+            .exercise-detail-title {
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .section-exercise-taken {
+        .header-wrapper {
+            margin-bottom: 70px;
+        }
+
+        .detail-content {
+            .exercise-detail-title {
+                margin-bottom: 20px;
+                font-size: 20px;
+                line-height: unset;
+            }
+
+            .exercise-taken-summary {
+                max-width: 400px;
+                margin-bottom: 0;
+
+                .exercise-card {
+                    width: calc(50% - 15px);
+                    margin-bottom: 40px;
+
+                    &:nth-child(2n+1) {
+                        margin-right: 0;
+                    }
+
+                    &:nth-child(2n+2) {
+                        margin-right: 0;
+                    }
+                }
+            }
+
+            .exercise-taken-link {
+                margin-bottom: 30px;
+            }
+
+            .exercise-detail-content {
+                flex-direction: column;
+                width: fit-content;
+                padding-bottom: 40px;
+
+                .time-title {
+                    text-align: center;
+                }
+
+                .exercise-detail-time {
+                    width: 100%;
+                    //max-width: 302px;
+                    margin-right: auto;
+                    margin-left: auto;
+
+                    .exercise-start-time {
+                        &.second {
+                            img {
+                                margin-right: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .section-exercise-taken {
+        .header-wrapper {
+            .header-text {
+                .item-text {
+                    font-size: 24px;
+                }
+            }
+        }
+
+        .detail-content {
+            border-radius: 50px;
+            border: 15px solid #FFBA29;
+
+            .exercise-class {
+                .class-item {
+                    font-size: 24px;
+                    padding: 15px 60px;
+                }
+            }
+
+            .exercise-taken-link {
+                .btn--exercise-link{
+                    &.first {
+                        margin-right: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .section-exercise-taken {
+        .header-wrapper {
+            margin-bottom: 50px;
+
+            .header-text {
+                .item-text {
+                    font-size: 18px;
+                    padding: 15px;
+                }
+            }
+        }
+
+        .detail-content {
+            padding-left: 10px;
+            padding-right: 10px;
+            border-radius: 25px;
+
+            .exercise-taken-summary {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .exercise-class {
+                top: -50px;
+
+                .class-item {
+                    font-size: 18px;
+                }
+            }
+
+            .exercise-taken-link {
+                flex-direction: column;
+
+                .btn--exercise-link {
+                    &.first {
+                        margin-right: 0;
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+
+            .exercise-taken-button {
+                .button-exercise--detail {
+                    min-width: 200px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,429 @@
+
+.bg__exercise--one {
+    min-height: 100vh;
+    background-size: cover !important;
+
+        .wp__content-exercise--one {
+            max-width: 1320px;
+            margin: 0px auto;
+            padding: 0px 15px;
+
+            .header-exercise--one {
+                padding-top: 50px;
+
+                .point__exercise--one {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    min-width: 82px;
+                    height: 82px;
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 39px;
+                    color: #FFFFFF;
+                    padding: 10px;
+                    background: linear-gradient(
+                            0deg, #FE3838 -0.01%, #EA6078 100%);
+                    border-radius: 50%;
+
+                }
+
+                .title__exercise--one {
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 39px;
+                    color: #FFFFFF;
+                    padding: 0px 15px;
+                    text-align: center;
+                }
+
+                .hours__time--down {
+                    //styleName: H2/32px;
+                    width: 100px;
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 39px;
+                    color: #FFFFFF;
+                }
+            }
+
+            .content__exercise--one {
+                .question__exercise--one {
+                    text-align: center;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 29px;
+                    color: $black;
+                    margin-top: 20px;
+                }
+
+                .question__wp--exercise-1 {
+
+                    padding: 10px;
+                    background: rgb(183,106,75);
+                    border-radius: 39px;
+                    margin-top: 22px;
+
+                    .question__wp--exercise-one {
+
+                        background: #36B566;
+                        padding: 27px 35px;
+                        border-radius: 32px;
+                        color: $white;
+
+                        * {
+                            color: $white;
+                        }
+
+                        .question__text-exercise {
+                            font-family: Patrick Hand;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 36px;
+                            color: #FFFFFF;
+                        }
+
+                    }
+                }
+
+                .wp__choose--answer {
+                    background: #F8FBFE;
+                    border-radius: 32px;
+                    margin-top: 45px;
+                    padding: 0px 15px;
+
+                    .title_choose--answer {
+                        font-size: 32px;
+                        font-weight: 400;
+                        line-height: 43px;
+                        color: #252B42;
+                        text-align: center;
+                        padding-top: 30px;
+                        font-family: Patrick Hand;
+                    }
+
+                    .checkbox__choose--answer {
+                        margin-top: 30px;
+                        padding-bottom: 25px;
+
+
+                        .checkbox--choose {
+                            margin-right: 15px;
+                        }
+
+                        .form__check--choose {
+                            cursor: pointer;
+                            font-size: 32px;
+                            margin-bottom: 16px;
+                        }
+
+                        .check__choose--checkbox {
+                            //position: absolute;
+                            font-size: 20px;
+                            color: #5BCE71;
+                            //right: 44%;
+                            //bottom: -33%;
+                        }
+
+                        .check__choose--checkbox--close {
+                            //position: absolute;
+                            font-size: 20px;
+                            color: #FF1D00;
+                            //right: 44%;
+                            //bottom: -33%;
+                        }
+
+
+                        .babel__text--choose {
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 32px;
+                            color: #333333;
+                            max-width: 250px;
+                            font-family: Patrick Hand;
+
+                            br {
+                                display: none;
+                            }
+
+                            * {
+                                font-family: Patrick Hand;
+                            }
+                        }
+                    }
+
+
+                }
+
+                .mark__checkbox--choose {
+                    margin-top: 30px;
+                    padding-bottom: 23px;
+
+                    .btn-submit--exercise {
+                        color: $white;
+                        padding: 15px;
+                        text-decoration: none;
+                        text-align: center;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 20px;
+                        line-height: 24px;
+                        background: $yellow;
+                        border-radius: 12px;
+                        //box-shadow: 0 4px 0 0 $warning;
+                        border-bottom: 4px solid $warning;
+                        margin-right: 20px;
+                        margin-left: 20px;
+                        min-width: 151px;
+
+                        &:hover,
+                        &:focus {
+                            opacity: 0.8;
+                        }
+                    }
+
+
+                        .a__checkbox--choose {
+                            font-size: 14px;
+                            color: #F49000;
+
+                            .perv__checkbox--choose {
+                                padding: 18.5px 22.88px;
+                                background: white;
+                                border-radius: 50%;
+                            }
+                        }
+
+                    .a__checkbox--choose:hover {
+                        font-size: 14px;
+                        color: white;
+
+                        .perv__checkbox--choose:hover {
+                            background: #F49000;
+                        }
+                    }
+
+
+                    .a__checkbox--choose {
+                        font-size: 14px;
+                        color: #F49000;
+
+                        .next__checkbox--choose {
+                            padding: 18.5px 22.88px;
+                            background: white;
+                            border-radius: 50%;
+                        }
+                    }
+
+                    .a__checkbox--choose:hover {
+                        font-size: 14px;
+                        color: white;
+
+                        .next__checkbox--choose:hover {
+                            background: #F49000;
+                        }
+                    }
+
+                    .button__mark--checkbox,
+                    .btn--scored {
+                        border: none;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 24px;
+                        color: white;
+                        min-width: 151px;
+                        padding: 15px;
+                        border-radius: 12px;
+                        background: linear-gradient(90.16deg, #8EE048 19.02%, #66CE5C 87.44%);
+                        margin: 0px 20px;
+                        border-bottom: 4px solid #56C33F;
+                    }
+
+                    .button__mark--checkbox:hover,
+                    .btn--scored:hover {
+                        opacity: 0.8;
+                    }
+                }
+
+            }
+
+        }
+
+}
+
+.timeDown__exercise--one {
+    width: 100px;
+}
+
+
+//dang 2
+
+
+.wp__math--fill {
+    padding: 48px 0px 40px 0px;
+    .wp__math--fill--content {
+        .text__input--fill-math {
+            font-family: Patrick Hand;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 32px;
+            color: white;
+            margin-bottom: 24px;
+
+            .input__form--text-fill {
+                width: 63px;
+                background: #219653;
+                color: white;
+                padding-top: 0px;
+                padding-bottom: 0px;
+                font-size: 21px;
+                text-align: center;
+            }
+
+            * {
+                font-family: inherit;
+            }
+        }
+    }
+}
+
+.wp__choose--math--fill {
+    margin-top: 40px !important;
+    .title__check__math {
+        padding-top: 35px;
+        padding-bottom: 14px;
+        text-align: center;
+        .check__math--fill {
+            font-size: 20px;
+            color: #36B566;
+        }
+        .title__math--fill-kq {
+            //styleName: H4/20px;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 24px;
+            color: #36B566;
+            padding-left: 18px;
+
+        }
+    }
+
+    .kq__wp__math--fill {
+        padding-bottom: 30px;
+        .text__input--fill-kq {
+            font-family: Patrick Hand;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 32px;
+            margin-bottom: 6px;
+
+            audio {
+                display: none;
+
+                & + br {
+                    display: none;
+                }
+            }
+
+        }
+    }
+}
+
+.hours__time--down {
+    width: 100px;
+}
+
+.active__math--fill {
+    color:#36B566;
+
+}
+
+
+.form__check--choose:checked {
+    background-color: #5BCE71 !important;
+    border: #5BCE71 !important;
+}
+
+@media (max-width: 1130px) {
+    .bg__exercise--one {
+        background-image: url("/images/bg-section1.png") !important;
+        background-size: cover !important;
+        height: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .bg__exercise--one .wp__content-exercise--one .header-exercise--one .title__exercise--one {
+        font-size: 25px;
+    }
+
+    .bg__exercise--one .wp__content-exercise--one .header-exercise--one .hours__time--down {
+        font-size: 25px;
+    }
+
+    .bg__exercise--one .wp__content-exercise--one .content__exercise--one .wp__choose--answer .title_choose--answer {
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width: 575px) {
+    .bg__exercise--one .wp__content-exercise--one .header-exercise--one {
+        padding-top: 20px;
+    }
+    .bg__exercise--one .wp__content-exercise--one .header-exercise--one--no {
+        display: none !important;
+    }
+
+    .bg__exercise--one .wp__content-exercise--one .header-exercise--one--responsive {
+        display: block !important;
+    }
+
+    .wp__responsive--one {
+        margin-top: 15px;
+    }
+
+    .bg__exercise--one .wp__content-exercise--one .header-exercise--one .point__exercise--one {
+        margin-right: 15px;
+    }
+
+    .bg__exercise--one .wp__content-exercise--one .header-exercise--one .title__exercise--one {
+        font-size: 23px;
+    }
+
+    .bg__exercise--one .wp__content-exercise--one .header-exercise--one .hours__time--down {
+        font-size: 23px;
+    }
+
+    .bg__exercise--one .wp__content-exercise--one .content__exercise--one .wp__choose--answer .title_choose--answer {
+        font-size: 23px;
+    }
+
+    .bg__exercise--one .wp__content-exercise--one .content__exercise--one .question__wp--exercise-1 .question__wp--exercise-one {
+        background: #36B566;
+        padding: 15px 20px;
+        border-radius: 32px;
+    }
+
+    .bg__exercise--one .wp__content-exercise--one .content__exercise--one .mark__checkbox--choose .button__mark--checkbox {
+        font-size: 16px;
+        padding: 13px 15px;
+    }
+
+    .bg__exercise--one .wp__content-exercise--one .content__exercise--one .mark__checkbox--choose .btn--scored {
+        font-size: 16px;
+        padding: 13px 15px;
+    }
+}
+
+
+
+

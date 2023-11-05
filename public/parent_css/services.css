@@ -1,0 +1,116 @@
+.section-dashboard .section-packages {
+	 max-width: 1258px;
+	 position: relative;
+	 margin-right: auto;
+	 margin-left: auto;
+}
+ .section-dashboard .section-packages .section-package-title {
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 32px;
+	 text-align: center;
+	 color: #4db748;
+	 margin-bottom: 30px;
+}
+ .section-dashboard .section-packages .package-boxes {
+	 display: flex;
+	 justify-content: center;
+	 margin-bottom: 30px;
+}
+ .section-dashboard .section-packages .package-boxes .package-card {
+	 padding: 30px;
+	 display: flex;
+	 flex-direction: column;
+	 align-items: center;
+	 background-color: #fffeeb;
+	 border: 1px solid #e5e9f2;
+	 border-radius: 16px;
+	 max-width: 400px;
+}
+ .section-dashboard .section-packages .package-boxes .package-card:nth-child(2n+1) {
+	 margin-right: 30px;
+}
+ .section-dashboard .section-packages .package-boxes .package-card .card-service-image {
+	 margin-bottom: 20px;
+}
+ .section-dashboard .section-packages .package-boxes .package-card .card-service-name {
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 16px;
+	 color: #252b42;
+	 margin-bottom: 20px;
+}
+ .section-dashboard .section-packages .package-boxes .package-card .card-service-description {
+	 font-style: normal;
+	 font-weight: normal;
+	 font-size: 16px;
+	 color: #4f4f4f;
+	 margin-bottom: 20px;
+}
+ .section-dashboard .section-packages .package-boxes .package-card .card-service-footer {
+	 margin-top: auto;
+	 display: flex;
+	 justify-content: space-between;
+	 width: 100%;
+	 padding-top: 20px;
+	 border-top: 1px solid #c4c4c4;
+	 align-items: center;
+}
+ .section-dashboard .section-packages .package-boxes .package-card .card-service-footer .card-price {
+	 font-weight: bold;
+}
+ .section-dashboard .section-packages .package-boxes .package-card .card-service-footer .btn-buy-now {
+	 background: #f6b70f;
+	 border-radius: 12px;
+	 box-shadow: 0 4px 0 0 #f49000;
+	 padding: 10px 15px;
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 20px;
+	 text-align: center;
+	 color: #fff;
+	 text-decoration: none;
+}
+ .section-dashboard .section-packages .package-boxes .package-card .card-service-footer .btn-buy-now:hover, .section-dashboard .section-packages .package-boxes .package-card .card-service-footer .btn-buy-now:focus {
+	 opacity: 0.8;
+}
+ .section-dashboard .section-packages .buttons-back {
+	 display: flex;
+	 justify-content: center;
+}
+ .section-dashboard .section-packages .buttons-back .btn--back-dashboard {
+	 background: #ff6551;
+	 border-radius: 12px;
+	 padding: 15px;
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 20px;
+	 line-height: 24px;
+	 text-align: center;
+	 color: #fff;
+	 min-width: 150px;
+	 text-decoration: none;
+	 box-shadow: 0 4px 0 0 #ff3217;
+}
+ .section-dashboard .section-packages .buttons-back .btn--back-dashboard:focus, .section-dashboard .section-packages .buttons-back .btn--back-dashboard:hover {
+	 opacity: 0.8;
+}
+ @media (max-width: 767px) {
+	 .section-dashboard .section-packages .section-package-title {
+		 font-size: 24px;
+	}
+	 .section-dashboard .section-packages .package-boxes .package-card {
+		 padding: 30px 15px;
+	}
+}
+ @media (max-width: 650px) {
+	 .section-dashboard .section-packages .package-boxes {
+		 flex-direction: column;
+		 align-items: center;
+	}
+	 .section-dashboard .section-packages .package-boxes .package-card {
+		 margin-right: 0 !important;
+		 margin-bottom: 20px;
+	}
+}
+ 

@@ -1,0 +1,312 @@
+@charset "UTF-8";
+.wp_banner__footer {
+  top: 100px;
+}
+
+.banner__footer--img {
+  width: 100%;
+  height: 539px;
+}
+.banner__footer--img .wp_contact--banner {
+  width: 1010px;
+  font-family: inherit;
+}
+.banner__footer--img .wp_contact--banner .border_wp-contact {
+  padding: 4px 47px;
+  background-color: #FFFFFF;
+  display: inline-block;
+}
+.banner__footer--img .wp_contact--banner .title_contact--banner {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #FFFFFF;
+  margin-top: 30px;
+}
+.banner__footer--img .wp_form--contact {
+  margin-top: 57px;
+}
+.banner__footer--img .wp_form--contact .form_contact--left {
+  width: 50%;
+  padding-right: 15px;
+  padding-left: 20px;
+}
+.banner__footer--img .wp_form--contact .form_contact--left .form_input-contact {
+  padding: 15px 19px;
+  margin-bottom: 24px;
+  border: none;
+}
+.banner__footer--img .wp_form--contact .form_contact--left .form_input-contact:focus {
+  box-shadow: 0 0 0 2px #F49000;
+}
+.banner__footer--img .wp_form--contact .form_contact--left .form_input-contact::-moz-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #4F4F4F;
+}
+.banner__footer--img .wp_form--contact .form_contact--left .form_input-contact:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #4F4F4F;
+}
+.banner__footer--img .wp_form--contact .form_contact--left .form_input-contact::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #4F4F4F;
+}
+.banner__footer--img .wp_form--contact .form_contact--right {
+  width: 50%;
+  padding-left: 15px;
+  padding-right: 20px;
+}
+.banner__footer--img .wp_form--contact .form_contact--right .form_textarea-contact {
+  height: 63%;
+  padding: 15px 18px;
+  border: none;
+}
+.banner__footer--img .wp_form--contact .form_contact--right .form_textarea-contact:focus {
+  box-shadow: 0 0 0 2px #F49000;
+}
+.banner__footer--img .wp_form--contact .form_contact--right .form_textarea-contact::-moz-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #4F4F4F;
+  line-height: 24px;
+}
+.banner__footer--img .wp_form--contact .form_contact--right .form_textarea-contact:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #4F4F4F;
+  line-height: 24px;
+}
+.banner__footer--img .wp_form--contact .form_contact--right .form_textarea-contact::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #4F4F4F;
+  line-height: 24px;
+}
+.banner__footer--img .wp_form--contact .form_contact--right .btn_warning--contact {
+  background-color: #F6B70F !important;
+  color: #FFFFFF;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 12px 0px;
+  margin-top: 26px;
+  border: none;
+  border-bottom: 4px solid #F49000;
+}
+.banner__footer--img .wp_form--contact .form_contact--right .btn_warning--contact:hover, .banner__footer--img .wp_form--contact .form_contact--right .btn_warning--contact:focus {
+  background-color: #ffca2c !important;
+}
+
+footer {
+  background-color: #f3f3f3;
+  padding-top: 80px;
+}
+footer .wp_footer {
+  width: 1254px;
+  margin: 0px auto;
+  padding: 0px 15px;
+}
+footer .wp_footer .box__company--footer {
+  padding: 0px 8% 0px 0px;
+}
+footer .wp_footer .company_footer {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #252B42;
+  padding-bottom: 16px;
+}
+footer .wp_footer .box__company--content {
+  padding-left: 7px;
+}
+footer .wp_footer .mst_company--footer {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #4F4F4F;
+  padding-bottom: 16px;
+}
+footer .wp_footer .mst_company--footer .mst_company--footer-font {
+  font-weight: 700;
+}
+footer .wp_footer .box__trend--footer {
+  padding-left: 25px;
+}
+footer .wp_footer .box__trend--footer .trend__title--footer {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #333333;
+}
+footer .wp_footer .box__trend--footer ul.list__trend .item__trend {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 42px;
+}
+footer .wp_footer .box__download--footer {
+  padding-left: 27px;
+}
+footer .wp_footer .box__download--footer ul.list__link--download {
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+footer .wp_footer .box__download--footer ul.list__link--download .item__link {
+  margin-bottom: 24px;
+}
+footer .wp_footer .box__download--footer ul.list__link--download .item__link--bct {
+  margin-left: -12px;
+}
+
+.copy_right {
+  border-top: 1px solid #E0E0E0;
+  background-color: #f3f3f3;
+}
+.copy_right .wp_copy-right {
+  max-width: 1254px;
+  margin: 0px auto;
+  padding: 28px 15px;
+}
+.copy_right .wp_copy-right .title_copy-right {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #4f4f4fb3;
+}
+
+@media (min-width: 1025px) and (max-width: 1300px) {
+  footer .wp_footer .box__company--footer {
+    padding: 0px 5% 0px 25px;
+  }
+}
+/* Ipad ngang (1024X768) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  footer .wp_footer {
+    margin: 0px 50px 0px 17px;
+  }
+  footer .wp_footer .box__company--content {
+    padding-left: 0px;
+  }
+  footer .wp_footer .box__company--footer {
+    padding: 0px 1% 0px 0px;
+  }
+  footer .wp_footer .company_footer {
+    font-size: 16px;
+  }
+  footer .wp_footer img.img__bct {
+    width: 179px;
+  }
+}
+/* Ipad doc (768x1024) */
+@media screen and (max-width: 767px) {
+  footer {
+    padding-top: 50px;
+  }
+
+  .banner__footer--img .wp_contact--banner {
+    margin-top: 17px;
+  }
+
+  .banner__footer--img .wp_contact--banner .title_contact--banner {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-top: 16px;
+  }
+
+  .banner__footer--img .wp_form--contact {
+    margin-top: 20px;
+    margin-right: 7px;
+  }
+
+  .banner__footer--img .wp_form--contact .form_contact--left .form_input-contact {
+    margin-bottom: 12px;
+  }
+
+  .banner__footer--img .wp_form--contact .form_contact--left {
+    width: unset;
+  }
+
+  .banner__footer--img .wp_form--contact .form_contact--right {
+    width: 100%;
+    margin-left: 5px;
+    margin-top: 12px;
+  }
+
+  .banner__footer--img .wp_form--contact .form_contact--right .btn_warning--contact {
+    margin-top: 18px;
+  }
+
+  .wp_banner__footer {
+    margin: 0px 18px;
+    top: 59px;
+  }
+
+  /*    footer*/
+  footer .wp_footer {
+    margin: 0px 18px;
+  }
+  footer .wp_footer .mst_company--footer {
+    line-height: 24px;
+  }
+  footer .wp_footer .company_footer {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  footer .wp_footer .box__company--content {
+    padding-left: 0px;
+  }
+  footer .wp_footer .box__company--footer {
+    padding-right: 0px;
+  }
+  footer .wp_footer .box__trend--footer {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  footer .wp_footer .box__trend--footer .trend__title--footer {
+    margin-top: 36px;
+  }
+  footer .wp_footer .box__download--footer ul.list__link--download {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  footer .wp_footer .box__download--footer ul.list__link--download .item__link {
+    margin-right: 5px;
+  }
+  footer .wp_footer .box__download--footer ul.list__link--download .item__link:last-child {
+    margin-left: 5px;
+    margin-right: 0px;
+  }
+}
+/* tablet nhỏ (480x640) */
+@media screen and (max-width: 380px) {
+  .wp_banner__footer .banner__footer--img {
+    background: url("/images/benner_mobile.png") no-repeat !important;
+  }
+
+  .banner__footer--img .wp_contact--banner .title_contact--banner {
+    margin-top: 11px;
+  }
+
+  .banner__footer--img .wp_contact--banner {
+    margin-top: 22px;
+  }
+
+  footer .wp_footer .box__download--footer ul.list__link--download {
+    justify-content: space-around;
+  }
+
+  footer .wp_footer .box__download--footer ul.list__link--download .item__link img {
+    width: 160px;
+  }
+
+  .copy_right .wp_copy-right .title_copy-right {
+    font-size: 14px;
+  }
+}
+/* Iphone (480x640) */
+/* Smart phone nhỏ */

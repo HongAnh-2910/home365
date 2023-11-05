@@ -1,0 +1,294 @@
+.wp__form_exam--one .bg__form--exam {
+	 min-height: 100vh;
+	 background-size: cover !important;
+}
+ .wp__form_exam--one .bg__form--exam .wp__content--form-exam {
+	 max-width: 1320px;
+	 margin: 0px auto;
+	 padding: 0px 15px;
+}
+ .wp__form_exam--one .bg__form--exam .wp__content--form-exam .header__exam--one {
+	 display: flex;
+	 justify-content: space-between;
+	 padding-top: 69px;
+	 align-items: center;
+}
+ .wp__form_exam--one .bg__form--exam .wp__content--form-exam .header__exam--one .point__exam--one {
+	 font-size: 32px;
+	 font-style: normal;
+	 font-weight: 700;
+	 line-height: 39px;
+	 min-width: 72px;
+	 height: 72px;
+	 color: #f3f3f3;
+	 background: linear-gradient(0deg, #fe3838 -0.01%, #ea6078 100%);
+	 border-radius: 50%;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+}
+ .wp__form_exam--one .bg__form--exam .wp__content--form-exam .header__exam--one .title__exam--one {
+	 font-family: Montserrat;
+	 font-size: 32px;
+	 font-style: normal;
+	 font-weight: 700;
+	 line-height: 39px;
+	 padding: 0px 20px;
+}
+ .wp__form_exam--one .bg__form--exam .wp__content--form-exam .header__exam--one .time__exam--one {
+	 text-align: center;
+}
+ .wp__form_exam--one .bg__form--exam .wp__content--form-exam .header__exam--one .time__exam--one .hours__time--down_one {
+	 font-family: Montserrat;
+	 font-size: 32px;
+	 font-weight: 700;
+	 line-height: 39px;
+	 color: #3fc646;
+}
+ .wp__form_exam--one .bg__form--exam .wp__content--form-exam .question__exam--one {
+	 font-family: Montserrat;
+	 font-size: 24px;
+	 font-style: normal;
+	 font-weight: 700;
+	 line-height: 29px;
+}
+ .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__content--item--exam {
+	 margin-top: 23px;
+	 border: 13px solid #a76c4b;
+	 border-radius: 14px;
+}
+ .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__content--item--exam .wp__item--exam--one {
+	 background: #f3f3f3;
+	 padding: 0px 15px;
+	 margin: 5px;
+	 border-radius: 14px;
+}
+ .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__content--item--exam .wp__item--exam--one .question__exam--help {
+	 text-align: center;
+	 font-family: Patrick Hand;
+	 font-size: 32px;
+	 font-style: normal;
+	 font-weight: 400;
+	 line-height: 35px;
+	 padding-top: 90px;
+	 padding-bottom: 90px;
+}
+ .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__content--item--exam .wp__item--exam--one .question__exam--help .result__question--help {
+	 margin-top: 11px;
+	 font-family: Patrick Hand;
+}
+ .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__content--item--exam .wp__item--exam--one .list_result--exam {
+	 list-style: none;
+	 margin-bottom: 0px;
+	 padding-left: 0px;
+	 display: flex;
+	 justify-content: space-between;
+	 flex-wrap: wrap;
+}
+ .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__content--item--exam .wp__item--exam--one .list_result--exam .item__list--result--exam {
+	 text-align: center;
+	 display: inline-block;
+	 padding: 24px 28px;
+	 margin-bottom: 15px;
+}
+ .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__content--item--exam .wp__item--exam--one .list_result--exam .item__list--result--exam .title__result--exam {
+	 font-family: Patrick Hand;
+	 font-size: 18px;
+	 font-weight: 400;
+	 line-height: 24px;
+	 display: inline-block;
+	 padding: 4px 60px;
+	 background: #e5e8ed;
+	 border-radius: 8px;
+	 width: 250px;
+}
+ .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__content--item--exam .wp__item--exam--one .list_result--exam .item__list--result--exam:hover {
+	 background: #e5e8ed;
+	 border-radius: 8px;
+	 cursor: pointer;
+}
+ .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__content--item--exam .wp__item--exam--one .check__result--exam {
+	 text-align: center;
+	 padding: 60px 0px;
+}
+ .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__content--item--exam .wp__item--exam--one .check__result--exam .check__result--exam--icon {
+	 font-size: 26px;
+	 color: #ff1d00;
+}
+ .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__content--item--exam .wp__item--exam--one .check__result--exam .check__result--exam--title {
+	 font-family: Montserrat;
+	 font-size: 20px;
+	 font-weight: 700;
+	 line-height: 24px;
+	 color: #ff6551;
+}
+ .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__footer--exam .mark__checkbox--choose {
+	 margin-top: 60px;
+}
+ .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__footer--exam .mark__checkbox--choose .btn-submit--exercise {
+	 color: #fff;
+	 padding: 15px;
+	 text-decoration: none;
+	 text-align: center;
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 20px;
+	 line-height: 24px;
+	 background: #f6b70f;
+	 border-radius: 12px;
+	 border-bottom: 4px solid #f49000;
+	 margin-right: 20px;
+	 margin-left: 20px;
+	 min-width: 151px;
+}
+ .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__footer--exam .mark__checkbox--choose .btn-submit--exercise:hover, .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__footer--exam .mark__checkbox--choose .btn-submit--exercise:focus {
+	 opacity: 0.8;
+}
+ .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__footer--exam .mark__checkbox--choose .a__checkbox--choose {
+	 font-size: 14px;
+	 color: #f49000;
+}
+ .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__footer--exam .mark__checkbox--choose .a__checkbox--choose .perv__checkbox--choose {
+	 padding: 18.5px 22.88px;
+	 background: white;
+	 border-radius: 50%;
+}
+ .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__footer--exam .mark__checkbox--choose .a__checkbox--choose:hover {
+	 font-size: 14px;
+	 color: white;
+}
+ .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__footer--exam .mark__checkbox--choose .a__checkbox--choose:hover .perv__checkbox--choose:hover {
+	 background: #f49000;
+}
+ .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__footer--exam .mark__checkbox--choose .a__checkbox--choose {
+	 font-size: 14px;
+	 color: #f49000;
+}
+ .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__footer--exam .mark__checkbox--choose .a__checkbox--choose .next__checkbox--choose {
+	 padding: 18.5px 22.88px;
+	 background: white;
+	 border-radius: 50%;
+}
+ .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__footer--exam .mark__checkbox--choose .a__checkbox--choose:hover {
+	 font-size: 14px;
+	 color: white;
+}
+ .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__footer--exam .mark__checkbox--choose .a__checkbox--choose:hover .next__checkbox--choose:hover {
+	 background: #f49000;
+}
+ .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__footer--exam .mark__checkbox--choose .button__mark--checkbox, .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__footer--exam .mark__checkbox--choose .btn--scored {
+	 border: none;
+	 font-size: 20px;
+	 font-style: normal;
+	 min-width: 151px;
+	 font-weight: 700;
+	 line-height: 24px;
+	 color: white;
+	 padding: 15px;
+	 border-radius: 12px;
+	 background: linear-gradient(90.16deg, #8ee048 19.02%, #66ce5c 87.44%);
+	 margin: 0px 20px;
+	 border-bottom: 4px solid #56c33f;
+}
+ .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__footer--exam .mark__checkbox--choose .button__mark--checkbox:hover, .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__footer--exam .mark__checkbox--choose .btn--scored:hover {
+	 opacity: 0.8;
+}
+ .active__result--exam {
+	 background-color: #e5e8ed;
+}
+ @media (min-width: 1024px) and (max-width: 1400px) {
+	 .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__content--item--exam .wp__item--exam--one .question__exam--help {
+		 padding-top: 40px;
+		 padding-bottom: 40px;
+	}
+	 .img__redirect--exam.img__redirect--exam--1 {
+		 width: 180px !important;
+	}
+	 .wp__form_exam--one .bg__form--exam {
+		 padding-bottom: 20px;
+		 min-height: 100vh !important;
+		 height: auto !important;
+	}
+	 .wp__form_exam--one .bg__form--exam .wp__content--form-exam .header__exam--one {
+		 padding-top: 30px;
+	}
+	 .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__footer--exam .mark__checkbox--choose {
+		 margin-top: 45px;
+	}
+}
+ @media (max-width: 890px) {
+	 .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__content--item--exam .wp__item--exam--one .list_result--exam {
+		 justify-content: space-around;
+	}
+	 .wp__form_exam--one .bg__form--exam .wp__content--form-exam .header__exam--one .title__exam--one {
+		 font-size: 25px;
+	}
+	 .wp__form_exam--one .bg__form--exam .wp__content--form-exam .header__exam--one .time__exam--one .hours__time--down_one {
+		 font-size: 27px;
+	}
+	 .wp__form_exam--one .bg__form--exam {
+		 background-image: url("/images/bg_exam.png") !important;
+		 background-size: cover !important;
+		 height: 100% !important;
+		 background-repeat: no-repeat !important;
+	}
+	 .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__footer--exam .mark__checkbox--choose {
+		 padding-bottom: 20px;
+	}
+	 .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__content--item--exam .wp__item--exam--one .question__exam--help {
+		 padding: 73px 0px 53px 0px;
+	}
+}
+ @media (max-width: 658px) {
+	 .wp__form_exam--one .bg__form--exam .wp__content--form-exam .header__exam--one .title__exam--one {
+		 font-size: 20px;
+		 text-align: center;
+	}
+	 .wp__form_exam--one .bg__form--exam .wp__content--form-exam .header__exam--one .time__exam--one .hours__time--down_one {
+		 font-size: 24px;
+	}
+}
+ @media (max-width: 552px) {
+	 .wp__form_exam--one .bg__form--exam .wp__content--form-exam .header__exam--pc {
+		 display: none !important;
+	}
+	 .wp__form_exam--one .bg__form--exam .wp__content--form-exam .header__exam--mobile {
+		 padding-top: 50px;
+		 display: block !important;
+	}
+	 .wp__form_exam--one .bg__form--exam .wp__content--form-exam .header__exam--mobile .wp__close--exam {
+		 display: flex;
+		 justify-content: center;
+		 align-items: center;
+		 margin: 20px 0px;
+	}
+	 .wp__form_exam--one .bg__form--exam .wp__content--form-exam .header__exam--one .time__exam--one {
+		 margin-right: 15px;
+	}
+	 .wp__form_exam--one .bg__form--exam .wp__content--form-exam .header__exam--one .point__exam--one {
+		 margin-left: 15px;
+	}
+	 .wp__form_exam--one .bg__form--exam .wp__content--form-exam .header__exam--one .point__exam--one {
+		 font-size: 25px;
+	}
+}
+ @media (max-width: 401px) {
+	 .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__footer--exam .mark__checkbox--choose .button__mark--checkbox {
+		 font-size: 14px;
+		 padding: 9px 28px;
+	}
+	 .wp__form_exam--one .bg__form--exam .wp__content--form-exam .wp__footer--exam .mark__checkbox--choose .btn--scored {
+		 font-size: 14px;
+		 padding: 9px 28px;
+	}
+	 .wp__form_exam--one .bg__form--exam .wp__content--form-exam .header__exam--one .title__exam--one {
+		 font-size: 18px;
+	}
+	 .wp__form_exam--one .bg__form--exam .wp__content--form-exam .header__exam--one .time__exam--one .hours__time--down_one {
+		 font-size: 20px;
+	}
+	 .wp__form_exam--one .bg__form--exam .wp__content--form-exam .header__exam--one .point__exam--one {
+		 font-size: 20px;
+	}
+}
+ 

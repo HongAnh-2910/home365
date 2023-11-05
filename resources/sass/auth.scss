@@ -1,0 +1,631 @@
+
+.bg__login {
+    width: 100%;
+    height: 1024px;
+
+    .back_top__login {
+        top: 10%;
+        left: 17%;
+    }
+
+    .img__start {
+        //top: -187px;
+        //left: 69px;
+        //right: 69px;
+        //bottom: 187px;
+        top: 45px;
+        z-index: 1000;
+    }
+
+    .wp_form--login {
+
+        .title__login {
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 28px;
+            font-weight: 700;
+            color: #FFFFFF;
+        }
+
+        background: linear-gradient(180deg, #5BCE71 0%, #3FC646 83.85%);
+        border-radius: 32px;
+        width: 526px;
+        padding: 84px 52px 52px 52px;
+        margin: 0px 15px;
+
+        .title_form {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px;
+            text-align: center;
+            color:  #FFFFFF;
+            margin-bottom: 16px;
+        }
+
+        .label__title {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            color:  #FFFFFF;
+            padding-bottom: 8px;
+        }
+
+        .form-group-login {
+            margin-bottom: 22px;
+        }
+
+        .form__input--login {
+            padding: 14px 19px;
+            //margin-bottom: 22px;
+            box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.1);
+        }
+
+        .text-error-message {
+            font-weight: bold;
+            font-size: 14px;
+            margin-top: 7px;
+        }
+
+        .form__input--login::placeholder {
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            color: #8492A6;
+        }
+
+
+        .forget__pass {
+            margin-top: 16px;
+            text-align: right;
+
+            .forget_pass--title {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                color: #FFFFFF;
+            }
+        }
+
+        .button__login {
+            outline: none;
+            border: none;
+            background: #F6B70F;
+            border-radius: 12px;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 24px;
+            text-align: center;
+            color: #FFFFFF;
+            padding: 15px 59px;
+            margin-top: 32px;
+            border-bottom: 4px solid #F49000;
+        }
+
+        .button__login:hover {
+            opacity: 0.8;
+        }
+
+        .no__account {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+             color: #FFFFFF;
+            text-align: center;
+            margin-top: 35px;
+
+            .no__account--register {
+                color: #FFFFFF;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+//register
+
+ .title_form-register {
+     padding: 0px 6px;
+     margin-bottom: 29px !important;
+ }
+
+ .bg__login {
+
+     .img__start-register {
+         top: -13px;
+     }
+
+     .wp_form--register {
+         top: 17%;
+     }
+ }
+//responsive
+
+
+@media screen and (max-width:501px) {
+    .bg__login .img__start img {
+        width: 320px;
+    }
+
+    .bg__login .img__start {
+        top: 68px;
+    }
+    //.bg__login .wp_form--login .title__login {
+    //    display: none;
+    //}
+
+}
+
+@media screen and (max-width:401px) {
+    .bg__login .img__start img {
+        width: 283px;
+    }
+
+    .bg__login .img__start {
+        top: 85px;
+    }
+}
+//
+//@media screen and (max-width:501px) {
+//    //.bg__login .wp_form--login .img__start {
+//    //    display: none;
+//    //}
+//
+//    .bg__login .wp_form--login .title__login {
+//        padding: 35px ;
+//        display: block;
+//    }
+//
+//    .bg__login .wp_form--login {
+//        padding:0px 34px 52px 34px !important;
+//    }
+//}
+
+/* Ipad doc (768x1024) */
+@media screen and (max-width:767px) {
+    .bg__login .back_top__login {
+        top: 7%;
+        left: 4%;
+    }
+}
+
+@media screen and (max-width:1170px) {
+    .bg__login .back_top__login {
+        top: 7%;
+        left: 4%;
+    }
+}
+
+@media screen and (max-width:544px)  {
+    .bg__login .wp_form--login .img__start img {
+        width:100%;
+    }
+    .bg__login .wp_form--login {
+        padding: 84px 34px 52px 34px;
+    }
+    .bg__login .wp_form--login {
+        width: unset;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .bg__login {
+        height: 900px;
+    }
+    .bg__login .wp_form--login {
+
+        padding: 84px 34px 52px 34px;
+        top: 220px;
+
+        .title_form {
+            font-size: 18px;
+        }
+
+        .label__title {
+            font-size: 14px;
+        }
+
+        .form-group-login {
+            margin-bottom: 18px;
+        }
+
+        .form__input--login {
+            padding: 10px 15px;
+            //margin-bottom: 18px;
+        }
+
+        .form__input--login::placeholder {
+            font-size: 14px;
+        }
+
+        .forget__pass .forget_pass--title {
+            font-size: 14px;
+        }
+
+        .button__login {
+            margin-top: 25px;
+            font-size: 16px;
+            padding: 13px 43px;
+        }
+
+        .no__account {
+            font-size: 14px;
+            margin-top: 22px;
+        }
+    }
+
+}
+
+@media screen and (max-width:374px) {
+    .bg__login .img__start img {
+        width: 240px;
+    }
+
+    .bg__login .img__start {
+        top: 105px;
+    }
+}
+
+//responsive register
+
+@media screen and (max-width:501px) {
+
+    .bg__login .img__start-register {
+        top: 22px;
+    }
+    .bg__login .back_top__register {
+        top: 47px;
+    }
+}
+
+@media screen and (max-width:401px) {
+
+    .bg__login .img__start-register {
+        top: 39px;
+    }
+}
+
+@media screen and (max-width:381px) {
+
+    .bg__login .img__start-register {
+        top: 85px;
+    }
+
+    .bg__login .wp_form--login .title_form-register {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:380px) {
+
+    .bg__login .back_top__register {
+        top: 30px;
+    }
+
+    .bg__login .back_top__register img {
+        width: 40px;
+    }
+
+    .bg__login .img__start-register {
+        top: -22px;
+    }
+
+    .bg__login .wp_form--register {
+        top: 114px;
+    }
+
+    .bg__login .wp_form--login .title_form-register {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:378px) {
+
+    .bg__login .img__start-register {
+        top: -22px;
+    }
+}
+
+@media screen and (max-width:374px) {
+
+    .bg__login .img__start-register {
+        top: 0px;
+    }
+}
+
+
+
+//profile
+
+.wp__bg--profile {
+    width: 100%;
+    padding: 45px 15px;
+    background-size: cover !important;
+
+    #profile-account {
+        max-width: 810px;
+        width: 100%;
+    }
+
+    .wp__form--profile {
+        //margin: 0px 15px;
+        background-color: #FFFEEB;
+        border-radius: 16px;
+        //width: 810px;
+        padding: 0px 52px;
+
+        .border__profile {
+            background: linear-gradient(180deg, #5BCE71 0%, #3FC646 83.85%);
+            padding: 4px 47px;
+            margin: 59px 0px 35px 0px;
+        }
+
+        .title__profile {
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 50px;
+            text-transform: uppercase;
+            margin-bottom: 25px;
+            color: #252B42;
+        }
+
+        .avatar__profile {
+            height: 116px;
+            width: 116px;
+            border-radius: 75px;
+            border: 2px solid #FFFFFF;
+            display: inline-block;
+            cursor: pointer;
+            margin-bottom: 19px;
+
+            .select__but {
+                bottom: 3px;
+                right: -6%;
+                cursor: pointer;
+            }
+        }
+
+        .telephone__profile {
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 24px;
+            color: #252B42;
+        }
+
+        .wp__form-item {
+            max-width: 694px;
+            margin: 0px auto;
+            padding-top: 64px;
+            display: flex;
+
+            .item__form-profile {
+                padding: 11px 16px;
+                border: 1px solid #A1A4B1;
+                border-radius: 4px;
+                color: #2e2929;
+                margin-bottom: 20px;
+            }
+
+            .label__form-profile {
+                //styleName: Body 1/Medium - 16px;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 24px;
+                color: #4F4F4F;
+                display: flex;
+                margin-bottom: 9px;
+            }
+
+            .select__caret--profile {
+                top: 61%;
+                right: 8%;
+                color: #A1A4B1;
+            }
+        }
+
+        .wp__button--profile {
+            margin-bottom: 20px;
+            padding: 20px  5px;
+            justify-content: space-between;
+
+            .col-change-password {
+                display: block;
+            }
+
+
+            .button__change-item {
+                background: #F6B70F;
+                outline: none;
+                border: none;
+                color: #FFFFFF;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 24px;
+                padding: 15px 21px;
+                border-radius: 12px;
+                border-bottom: 4px solid #F49000;
+
+                &.mobile {
+                    display: none;
+                }
+            }
+
+            .button__change-item:hover {
+                opacity: 0.8;
+            }
+
+            .bg__profile--update {
+                background: linear-gradient(90.16deg, #8EE048 19.02%, #66CE5C 87.44%);
+                border-bottom: 4px solid #56C33F;
+                padding: 15px 31px;
+            }
+
+            .bg__profile--close {
+                background: #FF6551;
+                border-bottom: 4px solid #FF3217;
+                padding: 15px 49px;
+                margin-left: 20px;
+            }
+        }
+
+        .wp__form-item-left {
+            width: 50%;
+            padding-right: 12px;
+        }
+
+        .wp__form-item-right {
+            width: 50%;
+            padding-left: 12px;
+        }
+    }
+}
+
+// responsive profile
+
+@media (max-width: 920px) {
+    .wp__bg--profile .wp__form--profile .wp__button--profile {
+        .col-change-password {
+            display: none;
+        }
+
+        .col-update-profile {
+            width: 100% !important;
+        }
+
+        .bg__profile--update {
+            margin-left: 15px;
+        }
+
+        .bg__profile--close {
+            margin-left: 15px;
+        }
+
+        .button__change-item {
+            &.mobile {
+                display: inline-block;
+            }
+
+            &.desktop {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .wp__bg--profile .wp__form--profile {
+        padding: 0px 30px;
+    }
+
+    .wp__bg--profile .wp__form--profile .wp__button--profile  {
+        .button__change-item {
+            font-size: 15px;
+            padding: 12px 17px;
+        }
+
+        .bg__profile--close {
+            padding: 12px 30px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 667px) {
+
+
+    .wp__bg--profile .wp__form--profile .wp__form-item {
+        display: unset;
+    }
+
+    .wp__bg--profile .wp__form--profile .wp__form-item-right {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .wp__bg--profile .wp__form--profile .wp__form-item-left {
+        margin-top: 15px;
+        width: 100%;
+        padding-right: 0px;
+    }
+
+    .wp__bg--profile .wp__form--profile .title__profile {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 575px) {
+    .wp__bg--profile .wp__form--profile .wp__button--profile {
+        .button__change-item {
+            font-size: 14px;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .wp__bg--profile .wp__form--profile .wp__button--profile {
+        padding: 20px 0 0;
+
+        .button__active--right {
+            flex-direction: column;
+
+            .button__change-item {
+                margin-bottom: 20px;
+
+                &.bg__profile--update,
+                &.bg__profile--close {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+
+    .wp__bg--profile .wp__form--profile {
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 430px){
+
+    .wp__bg--profile .wp__form--profile .title__profile {
+        line-height: 20px;
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .wp__bg--profile .wp__form--profile .wp__form-item .item__form-profile {
+        font-size: 13px;
+    }
+
+    .wp__bg--profile .wp__form--profile .border__profile {
+        margin-bottom: 15px;
+    }
+
+    .wp__bg--profile .wp__form--profile .telephone__profile {
+        line-height: 16px;
+        font-size: 16px;
+    }
+
+    .wp__bg--profile .wp__form--profile .wp__button--profile .bg__profile--close {
+        margin-left: 0px;
+    }
+}
+
+
+//@media screen and (max-width: 380px){
+//    .wp__bg--profile .wp__form--profile .title__profile {
+//        font-size: 16px;
+//        margin-bottom: 12px;
+//    }
+//
+//    .wp__bg--profile .wp__form--profile .border__profile {
+//        margin-bottom: 15px;
+//    }
+//
+//    .wp__bg--profile .wp__form--profile .telephone__profile {
+//        font-size: 16px;
+//    }
+//
+//}
+
+

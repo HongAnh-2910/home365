@@ -1,0 +1,328 @@
+.bg__exercise--one {
+	 min-height: 100vh;
+	 background-size: cover !important;
+}
+ .bg__exercise--one .wp__content-exercise--one {
+	 max-width: 1320px;
+	 margin: 0px auto;
+	 padding: 0px 15px;
+}
+ .bg__exercise--one .wp__content-exercise--one .header-exercise--one {
+	 padding-top: 50px;
+}
+ .bg__exercise--one .wp__content-exercise--one .header-exercise--one .point__exercise--one {
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 min-width: 82px;
+	 height: 82px;
+	 font-size: 32px;
+	 font-style: normal;
+	 font-weight: 700;
+	 line-height: 39px;
+	 color: #fff;
+	 padding: 10px;
+	 background: linear-gradient(0deg, #fe3838 -0.01%, #ea6078 100%);
+	 border-radius: 50%;
+}
+ .bg__exercise--one .wp__content-exercise--one .header-exercise--one .title__exercise--one {
+	 font-size: 32px;
+	 font-style: normal;
+	 font-weight: 700;
+	 line-height: 39px;
+	 color: #fff;
+	 padding: 0px 15px;
+	 text-align: center;
+}
+ .bg__exercise--one .wp__content-exercise--one .header-exercise--one .hours__time--down {
+	 width: 100px;
+	 font-size: 32px;
+	 font-style: normal;
+	 font-weight: 700;
+	 line-height: 39px;
+	 color: #fff;
+}
+ .bg__exercise--one .wp__content-exercise--one .content__exercise--one .question__exercise--one {
+	 text-align: center;
+	 font-size: 24px;
+	 font-style: normal;
+	 font-weight: 700;
+	 line-height: 29px;
+	 color: #8492a6;
+	 margin-top: 20px;
+}
+ .bg__exercise--one .wp__content-exercise--one .content__exercise--one .question__wp--exercise-1 {
+	 padding: 10px;
+	 background: #b76a4b;
+	 border-radius: 39px;
+	 margin-top: 22px;
+}
+ .bg__exercise--one .wp__content-exercise--one .content__exercise--one .question__wp--exercise-1 .question__wp--exercise-one {
+	 background: #36b566;
+	 padding: 27px 35px;
+	 border-radius: 32px;
+	 color: #fff;
+}
+ .bg__exercise--one .wp__content-exercise--one .content__exercise--one .question__wp--exercise-1 .question__wp--exercise-one * {
+	 color: #fff;
+}
+ .bg__exercise--one .wp__content-exercise--one .content__exercise--one .question__wp--exercise-1 .question__wp--exercise-one .question__text-exercise {
+	 font-family: Patrick Hand;
+	 font-size: 24px;
+	 font-style: normal;
+	 font-weight: 400;
+	 line-height: 36px;
+	 color: #fff;
+}
+ .bg__exercise--one .wp__content-exercise--one .content__exercise--one .wp__choose--answer {
+	 background: #f8fbfe;
+	 border-radius: 32px;
+	 margin-top: 45px;
+	 padding: 0px 15px;
+}
+ .bg__exercise--one .wp__content-exercise--one .content__exercise--one .wp__choose--answer .title_choose--answer {
+	 font-size: 32px;
+	 font-weight: 400;
+	 line-height: 43px;
+	 color: #252b42;
+	 text-align: center;
+	 padding-top: 30px;
+	 font-family: Patrick Hand;
+}
+ .bg__exercise--one .wp__content-exercise--one .content__exercise--one .wp__choose--answer .checkbox__choose--answer {
+	 margin-top: 30px;
+	 padding-bottom: 25px;
+}
+ .bg__exercise--one .wp__content-exercise--one .content__exercise--one .wp__choose--answer .checkbox__choose--answer .checkbox--choose {
+	 margin-right: 15px;
+}
+ .bg__exercise--one .wp__content-exercise--one .content__exercise--one .wp__choose--answer .checkbox__choose--answer .form__check--choose {
+	 cursor: pointer;
+	 font-size: 32px;
+	 margin-bottom: 16px;
+}
+ .bg__exercise--one .wp__content-exercise--one .content__exercise--one .wp__choose--answer .checkbox__choose--answer .check__choose--checkbox {
+	 font-size: 20px;
+	 color: #5bce71;
+}
+ .bg__exercise--one .wp__content-exercise--one .content__exercise--one .wp__choose--answer .checkbox__choose--answer .check__choose--checkbox--close {
+	 font-size: 20px;
+	 color: #ff1d00;
+}
+ .bg__exercise--one .wp__content-exercise--one .content__exercise--one .wp__choose--answer .checkbox__choose--answer .babel__text--choose {
+	 font-size: 24px;
+	 font-style: normal;
+	 font-weight: 400;
+	 line-height: 32px;
+	 color: #333;
+	 max-width: 250px;
+	 font-family: Patrick Hand;
+}
+ .bg__exercise--one .wp__content-exercise--one .content__exercise--one .wp__choose--answer .checkbox__choose--answer .babel__text--choose br {
+	 display: none;
+}
+ .bg__exercise--one .wp__content-exercise--one .content__exercise--one .wp__choose--answer .checkbox__choose--answer .babel__text--choose * {
+	 font-family: Patrick Hand;
+}
+ .bg__exercise--one .wp__content-exercise--one .content__exercise--one .mark__checkbox--choose {
+	 margin-top: 30px;
+	 padding-bottom: 23px;
+}
+ .bg__exercise--one .wp__content-exercise--one .content__exercise--one .mark__checkbox--choose .btn-submit--exercise {
+	 color: #fff;
+	 padding: 15px;
+	 text-decoration: none;
+	 text-align: center;
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 20px;
+	 line-height: 24px;
+	 background: #f6b70f;
+	 border-radius: 12px;
+	 border-bottom: 4px solid #f49000;
+	 margin-right: 20px;
+	 margin-left: 20px;
+	 min-width: 151px;
+}
+ .bg__exercise--one .wp__content-exercise--one .content__exercise--one .mark__checkbox--choose .btn-submit--exercise:hover, .bg__exercise--one .wp__content-exercise--one .content__exercise--one .mark__checkbox--choose .btn-submit--exercise:focus {
+	 opacity: 0.8;
+}
+ .bg__exercise--one .wp__content-exercise--one .content__exercise--one .mark__checkbox--choose .a__checkbox--choose {
+	 font-size: 14px;
+	 color: #f49000;
+}
+ .bg__exercise--one .wp__content-exercise--one .content__exercise--one .mark__checkbox--choose .a__checkbox--choose .perv__checkbox--choose {
+	 padding: 18.5px 22.88px;
+	 background: white;
+	 border-radius: 50%;
+}
+ .bg__exercise--one .wp__content-exercise--one .content__exercise--one .mark__checkbox--choose .a__checkbox--choose:hover {
+	 font-size: 14px;
+	 color: white;
+}
+ .bg__exercise--one .wp__content-exercise--one .content__exercise--one .mark__checkbox--choose .a__checkbox--choose:hover .perv__checkbox--choose:hover {
+	 background: #f49000;
+}
+ .bg__exercise--one .wp__content-exercise--one .content__exercise--one .mark__checkbox--choose .a__checkbox--choose {
+	 font-size: 14px;
+	 color: #f49000;
+}
+ .bg__exercise--one .wp__content-exercise--one .content__exercise--one .mark__checkbox--choose .a__checkbox--choose .next__checkbox--choose {
+	 padding: 18.5px 22.88px;
+	 background: white;
+	 border-radius: 50%;
+}
+ .bg__exercise--one .wp__content-exercise--one .content__exercise--one .mark__checkbox--choose .a__checkbox--choose:hover {
+	 font-size: 14px;
+	 color: white;
+}
+ .bg__exercise--one .wp__content-exercise--one .content__exercise--one .mark__checkbox--choose .a__checkbox--choose:hover .next__checkbox--choose:hover {
+	 background: #f49000;
+}
+ .bg__exercise--one .wp__content-exercise--one .content__exercise--one .mark__checkbox--choose .button__mark--checkbox, .bg__exercise--one .wp__content-exercise--one .content__exercise--one .mark__checkbox--choose .btn--scored {
+	 border: none;
+	 font-size: 20px;
+	 font-style: normal;
+	 font-weight: 700;
+	 line-height: 24px;
+	 color: white;
+	 min-width: 151px;
+	 padding: 15px;
+	 border-radius: 12px;
+	 background: linear-gradient(90.16deg, #8ee048 19.02%, #66ce5c 87.44%);
+	 margin: 0px 20px;
+	 border-bottom: 4px solid #56c33f;
+}
+ .bg__exercise--one .wp__content-exercise--one .content__exercise--one .mark__checkbox--choose .button__mark--checkbox:hover, .bg__exercise--one .wp__content-exercise--one .content__exercise--one .mark__checkbox--choose .btn--scored:hover {
+	 opacity: 0.8;
+}
+ .timeDown__exercise--one {
+	 width: 100px;
+}
+ .wp__math--fill {
+	 padding: 48px 0px 40px 0px;
+}
+ .wp__math--fill .wp__math--fill--content .text__input--fill-math {
+	 font-family: Patrick Hand;
+	 font-size: 24px;
+	 font-style: normal;
+	 font-weight: 400;
+	 line-height: 32px;
+	 color: white;
+	 margin-bottom: 24px;
+}
+ .wp__math--fill .wp__math--fill--content .text__input--fill-math .input__form--text-fill {
+	 width: 63px;
+	 background: #219653;
+	 color: white;
+	 padding-top: 0px;
+	 padding-bottom: 0px;
+	 font-size: 21px;
+	 text-align: center;
+}
+ .wp__math--fill .wp__math--fill--content .text__input--fill-math * {
+	 font-family: inherit;
+}
+ .wp__choose--math--fill {
+	 margin-top: 40px !important;
+}
+ .wp__choose--math--fill .title__check__math {
+	 padding-top: 35px;
+	 padding-bottom: 14px;
+	 text-align: center;
+}
+ .wp__choose--math--fill .title__check__math .check__math--fill {
+	 font-size: 20px;
+	 color: #36b566;
+}
+ .wp__choose--math--fill .title__check__math .title__math--fill-kq {
+	 font-size: 20px;
+	 font-weight: 700;
+	 line-height: 24px;
+	 color: #36b566;
+	 padding-left: 18px;
+}
+ .wp__choose--math--fill .kq__wp__math--fill {
+	 padding-bottom: 30px;
+}
+ .wp__choose--math--fill .kq__wp__math--fill .text__input--fill-kq {
+	 font-family: Patrick Hand;
+	 font-size: 24px;
+	 font-weight: 400;
+	 line-height: 32px;
+	 margin-bottom: 6px;
+}
+ .wp__choose--math--fill .kq__wp__math--fill .text__input--fill-kq audio {
+	 display: none;
+}
+ .wp__choose--math--fill .kq__wp__math--fill .text__input--fill-kq audio + br {
+	 display: none;
+}
+ .hours__time--down {
+	 width: 100px;
+}
+ .active__math--fill {
+	 color: #36b566;
+}
+ .form__check--choose:checked {
+	 background-color: #5bce71 !important;
+	 border: #5bce71 !important;
+}
+ @media (max-width: 1130px) {
+	 .bg__exercise--one {
+		 background-image: url("/images/bg-section1.png") !important;
+		 background-size: cover !important;
+		 height: 100%;
+	}
+}
+ @media (max-width: 600px) {
+	 .bg__exercise--one .wp__content-exercise--one .header-exercise--one .title__exercise--one {
+		 font-size: 25px;
+	}
+	 .bg__exercise--one .wp__content-exercise--one .header-exercise--one .hours__time--down {
+		 font-size: 25px;
+	}
+	 .bg__exercise--one .wp__content-exercise--one .content__exercise--one .wp__choose--answer .title_choose--answer {
+		 font-size: 25px;
+	}
+}
+ @media (max-width: 575px) {
+	 .bg__exercise--one .wp__content-exercise--one .header-exercise--one {
+		 padding-top: 20px;
+	}
+	 .bg__exercise--one .wp__content-exercise--one .header-exercise--one--no {
+		 display: none !important;
+	}
+	 .bg__exercise--one .wp__content-exercise--one .header-exercise--one--responsive {
+		 display: block !important;
+	}
+	 .wp__responsive--one {
+		 margin-top: 15px;
+	}
+	 .bg__exercise--one .wp__content-exercise--one .header-exercise--one .point__exercise--one {
+		 margin-right: 15px;
+	}
+	 .bg__exercise--one .wp__content-exercise--one .header-exercise--one .title__exercise--one {
+		 font-size: 23px;
+	}
+	 .bg__exercise--one .wp__content-exercise--one .header-exercise--one .hours__time--down {
+		 font-size: 23px;
+	}
+	 .bg__exercise--one .wp__content-exercise--one .content__exercise--one .wp__choose--answer .title_choose--answer {
+		 font-size: 23px;
+	}
+	 .bg__exercise--one .wp__content-exercise--one .content__exercise--one .question__wp--exercise-1 .question__wp--exercise-one {
+		 background: #36b566;
+		 padding: 15px 20px;
+		 border-radius: 32px;
+	}
+	 .bg__exercise--one .wp__content-exercise--one .content__exercise--one .mark__checkbox--choose .button__mark--checkbox {
+		 font-size: 16px;
+		 padding: 13px 15px;
+	}
+	 .bg__exercise--one .wp__content-exercise--one .content__exercise--one .mark__checkbox--choose .btn--scored {
+		 font-size: 16px;
+		 padding: 13px 15px;
+	}
+}
+ 

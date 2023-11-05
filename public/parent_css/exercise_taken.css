@@ -1,0 +1,352 @@
+.section-exercise-taken {
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 background-position: center;
+	 min-height: 1024px;
+	 padding: 30px 15px 150px;
+}
+ .section-exercise-taken .taken-bg {
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 width: 100%;
+	 height: 100%;
+	 object-fit: cover;
+	 z-index: -2;
+}
+ .section-exercise-taken .header-wrapper {
+	 max-width: 1230px;
+	 margin-right: auto;
+	 margin-left: auto;
+	 margin-bottom: 15px;
+	 display: flex;
+	 align-items: center;
+}
+ .section-exercise-taken .header-wrapper .back-to-dashboard {
+	 display: inline-block;
+	 margin-right: 20px;
+}
+ .section-exercise-taken .header-wrapper .header-text {
+	 padding: 5px;
+	 border: #36b566 dashed 4px;
+	 border-radius: 20px;
+}
+ .section-exercise-taken .header-wrapper .header-text .item-text {
+	 background-color: #36b566;
+	 color: #fff;
+	 padding: 25px 68px;
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 40px;
+	 line-height: 49px;
+	 text-align: center;
+	 border-radius: 20px;
+}
+ .section-exercise-taken .detail-content {
+	 max-width: 1090px;
+	 border-radius: 80px;
+	 border: 20px solid #ffba29;
+	 box-shadow: 0 4px 11px rgba(0, 0, 0, 0.1);
+	 background-color: #fff;
+	 position: relative;
+	 margin-left: auto;
+	 margin-right: auto;
+	 padding: 60px 45px 50px;
+}
+ .section-exercise-taken .detail-content .exercise-class {
+	 position: absolute;
+	 right: -36px;
+	 top: -70px;
+	 border: #ff6551 dashed 4px;
+	 border-radius: 20px;
+	 padding: 5px;
+	 display: flex;
+	 width: fit-content;
+}
+ .section-exercise-taken .detail-content .exercise-class .class-item {
+	 background-color: #ff6551;
+	 color: #fff;
+	 padding: 22px 60px;
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 40px;
+	 line-height: 49px;
+	 text-align: center;
+	 border-radius: 20px;
+}
+ .section-exercise-taken .detail-content .exercise-detail-title {
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 24px;
+	 line-height: 29px;
+	 text-align: center;
+	 color: #252b42;
+	 margin-bottom: 72px;
+	 max-width: 750px;
+	 margin-left: auto;
+	 margin-right: auto;
+}
+ .section-exercise-taken .detail-content .exercise-detail-content {
+	 display: flex;
+	 max-width: 630px;
+	 margin-right: auto;
+	 margin-left: auto;
+	 padding-bottom: 58px;
+}
+ .section-exercise-taken .detail-content .exercise-detail-content .exercise-detail-time {
+	 width: 50%;
+}
+ .section-exercise-taken .detail-content .exercise-detail-content .exercise-detail-time .time-title {
+	 font-style: normal;
+	 font-weight: 500;
+	 font-size: 20px;
+	 color: #252b42;
+	 margin-bottom: 19px;
+}
+ .section-exercise-taken .detail-content .exercise-detail-content .exercise-detail-time .exercise-start-time {
+	 display: flex;
+	 align-items: center;
+	 margin-bottom: 12px;
+}
+ .section-exercise-taken .detail-content .exercise-detail-content .exercise-detail-time .exercise-start-time img {
+	 margin-right: 18px;
+}
+ .section-exercise-taken .detail-content .exercise-detail-content .exercise-detail-time .exercise-start-time .time-text-start {
+	 font-style: normal;
+	 font-weight: 500;
+	 font-size: 16px;
+	 line-height: 20px;
+	 color: #252b42;
+}
+ .section-exercise-taken .detail-content .exercise-detail-content .exercise-detail-time .exercise-start-time .time-text-start .time-item {
+	 color: #e28500;
+}
+ .section-exercise-taken .detail-content .exercise-taken-summary {
+	 margin-left: auto;
+	 margin-right: auto;
+	 display: flex;
+	 justify-content: center;
+	 flex-wrap: wrap;
+	 margin-bottom: 35px;
+	 max-width: 625px;
+}
+ .section-exercise-taken .detail-content .exercise-taken-summary .exercise-card {
+	 width: calc(25% - 41.75px);
+	 display: flex;
+	 flex-direction: column;
+	 align-items: center;
+}
+ .section-exercise-taken .detail-content .exercise-taken-summary .exercise-card:not(:last-child) {
+	 margin-right: 55.66px;
+}
+ .section-exercise-taken .detail-content .exercise-taken-summary .exercise-card .card-item {
+	 padding: 13px;
+	 border-radius: 7px;
+	 transform: rotate(45deg);
+}
+ .section-exercise-taken .detail-content .exercise-taken-summary .exercise-card .card-item.highest-core {
+	 background-color: #9b51e0;
+}
+ .section-exercise-taken .detail-content .exercise-taken-summary .exercise-card .card-item.highest-core .score-item {
+	 color: #9b51e0;
+}
+ .section-exercise-taken .detail-content .exercise-taken-summary .exercise-card .card-item.average-score {
+	 background-color: #f6b70f;
+}
+ .section-exercise-taken .detail-content .exercise-taken-summary .exercise-card .card-item.average-score .score-item {
+	 color: #f6b70f;
+}
+ .section-exercise-taken .detail-content .exercise-taken-summary .exercise-card .card-item.lowest-score {
+	 background-color: #8492a6;
+}
+ .section-exercise-taken .detail-content .exercise-taken-summary .exercise-card .card-item.lowest-score .score-item {
+	 color: #8492a6;
+}
+ .section-exercise-taken .detail-content .exercise-taken-summary .exercise-card .card-item.your-score {
+	 background-color: #f92d2d;
+}
+ .section-exercise-taken .detail-content .exercise-taken-summary .exercise-card .card-item.your-score .score-item {
+	 color: #f92d2d;
+}
+ .section-exercise-taken .detail-content .exercise-taken-summary .exercise-card .card-item .score-item {
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 20px;
+	 line-height: 24px;
+	 text-align: center;
+	 padding: 28px 15.8px;
+	 width: 80px;
+	 background-color: #fff;
+	 border-radius: 50%;
+	 transform: rotate(-45deg);
+}
+ .section-exercise-taken .detail-content .exercise-taken-summary .exercise-card .card-score-text {
+	 font-style: normal;
+	 font-weight: 600;
+	 font-size: 16px;
+	 line-height: 24px;
+	 text-align: center;
+	 color: #252b42;
+	 margin-top: 25px;
+}
+ .section-exercise-taken .detail-content .exercise-taken-link {
+	 display: flex;
+	 justify-content: center;
+	 margin-bottom: 50px;
+}
+ .section-exercise-taken .detail-content .exercise-taken-link .btn--exercise-link {
+	 font-style: normal;
+	 font-weight: 600;
+	 font-size: 16px;
+	 line-height: 24px;
+	 text-align: center;
+	 color: #5bce71;
+}
+ .section-exercise-taken .detail-content .exercise-taken-link .btn--exercise-link:hover, .section-exercise-taken .detail-content .exercise-taken-link .btn--exercise-link:focus {
+	 opacity: 0.8;
+}
+ .section-exercise-taken .detail-content .exercise-taken-link .btn--exercise-link.first {
+	 margin-right: 110px;
+}
+ .section-exercise-taken .detail-content .exercise-taken-button {
+	 display: flex;
+	 justify-content: center;
+}
+ .section-exercise-taken .detail-content .exercise-taken-button .button-exercise--detail {
+	 background: linear-gradient(90.16deg, #8ee048 19.02%, #66ce5c 87.44%);
+	 border-radius: 12px;
+	 padding: 17px 15px;
+	 min-width: 242px;
+	 color: #fff;
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 20px;
+	 line-height: 24px;
+	 text-align: center;
+	 text-decoration: none;
+}
+ .section-exercise-taken .detail-content .exercise-taken-button .button-exercise--detail:hover, .section-exercise-taken .detail-content .exercise-taken-button .button-exercise--detail:focus {
+	 opacity: 0.8;
+}
+ @media (max-width: 1149px) {
+	 .section-exercise-taken .header-wrapper .header-text .item-text {
+		 padding: 20px 40px;
+		 font-size: 36px;
+		 line-height: unset;
+	}
+	 .section-exercise-taken .detail-content .exercise-class {
+		 right: -20px;
+	}
+}
+ @media (max-width: 991px) {
+	 .section-exercise-taken .header-wrapper .header-text .item-text {
+		 padding: 15px 20px;
+		 line-height: unset;
+		 font-size: 32px;
+	}
+	 .section-exercise-taken .detail-content {
+		 padding: 60px 30px 50px;
+	}
+	 .section-exercise-taken .detail-content .exercise-class .class-item {
+		 padding: 15px 30px;
+		 line-height: unset;
+		 font-size: 32px;
+	}
+	 .section-exercise-taken .detail-content .exercise-detail-title {
+		 margin-bottom: 30px;
+	}
+}
+ @media (max-width: 767px) {
+	 .section-exercise-taken .header-wrapper {
+		 margin-bottom: 70px;
+	}
+	 .section-exercise-taken .detail-content .exercise-detail-title {
+		 margin-bottom: 20px;
+		 font-size: 20px;
+		 line-height: unset;
+	}
+	 .section-exercise-taken .detail-content .exercise-taken-summary {
+		 max-width: 400px;
+		 margin-bottom: 0;
+	}
+	 .section-exercise-taken .detail-content .exercise-taken-summary .exercise-card {
+		 width: calc(50% - 15px);
+		 margin-bottom: 40px;
+	}
+	 .section-exercise-taken .detail-content .exercise-taken-summary .exercise-card:nth-child(2n+1) {
+		 margin-right: 0;
+	}
+	 .section-exercise-taken .detail-content .exercise-taken-summary .exercise-card:nth-child(2n+2) {
+		 margin-right: 0;
+	}
+	 .section-exercise-taken .detail-content .exercise-taken-link {
+		 margin-bottom: 30px;
+	}
+	 .section-exercise-taken .detail-content .exercise-detail-content {
+		 flex-direction: column;
+		 width: fit-content;
+		 padding-bottom: 40px;
+	}
+	 .section-exercise-taken .detail-content .exercise-detail-content .time-title {
+		 text-align: center;
+	}
+	 .section-exercise-taken .detail-content .exercise-detail-content .exercise-detail-time {
+		 width: 100%;
+		 margin-right: auto;
+		 margin-left: auto;
+	}
+	 .section-exercise-taken .detail-content .exercise-detail-content .exercise-detail-time .exercise-start-time.second img {
+		 margin-right: 16px;
+	}
+}
+ @media (max-width: 575px) {
+	 .section-exercise-taken .header-wrapper .header-text .item-text {
+		 font-size: 24px;
+	}
+	 .section-exercise-taken .detail-content {
+		 border-radius: 50px;
+		 border: 15px solid #ffba29;
+	}
+	 .section-exercise-taken .detail-content .exercise-class .class-item {
+		 font-size: 24px;
+		 padding: 15px 60px;
+	}
+	 .section-exercise-taken .detail-content .exercise-taken-link .btn--exercise-link.first {
+		 margin-right: 50px;
+	}
+}
+ @media (max-width: 450px) {
+	 .section-exercise-taken .header-wrapper {
+		 margin-bottom: 50px;
+	}
+	 .section-exercise-taken .header-wrapper .header-text .item-text {
+		 font-size: 18px;
+		 padding: 15px;
+	}
+	 .section-exercise-taken .detail-content {
+		 padding-left: 10px;
+		 padding-right: 10px;
+		 border-radius: 25px;
+	}
+	 .section-exercise-taken .detail-content .exercise-taken-summary {
+		 flex-direction: column;
+		 align-items: center;
+	}
+	 .section-exercise-taken .detail-content .exercise-class {
+		 top: -50px;
+	}
+	 .section-exercise-taken .detail-content .exercise-class .class-item {
+		 font-size: 18px;
+	}
+	 .section-exercise-taken .detail-content .exercise-taken-link {
+		 flex-direction: column;
+	}
+	 .section-exercise-taken .detail-content .exercise-taken-link .btn--exercise-link.first {
+		 margin-right: 0;
+		 margin-bottom: 15px;
+	}
+	 .section-exercise-taken .detail-content .exercise-taken-button .button-exercise--detail {
+		 min-width: 200px;
+	}
+}
+ 

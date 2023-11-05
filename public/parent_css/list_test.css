@@ -1,0 +1,316 @@
+.section-list-test {
+	 padding-bottom: 30px;
+}
+ .section-list-test .bg-list-test {
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 width: 100%;
+	 height: 100%;
+	 object-fit: cover;
+	 z-index: -2;
+}
+ .section-list-test .slick-track {
+	 margin-left: unset;
+	 margin-right: unset;
+}
+ .section-list-test .wp__bg--skill .content__lesson-skill {
+	 max-width: 1355px;
+	 margin: 0px auto;
+	 padding: 0px 40px;
+}
+ .section-list-test .wp__bg--skill .content__lesson-skill .title__lesson-skill {
+	 font-size: 40px;
+	 font-weight: 700;
+	 line-height: 50px;
+	 color: #252b42;
+	 padding-top: 59px;
+	 text-transform: uppercase;
+	 margin-bottom: 42px;
+}
+ .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill {
+	 margin-bottom: 40px;
+}
+ .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .title__slide--skill {
+	 font-size: 24px;
+	 font-style: normal;
+	 font-weight: 700;
+	 line-height: 29px;
+	 text-transform: uppercase;
+	 padding-left: 30px;
+	 margin-bottom: 22px;
+}
+ .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .your-test-class {
+	 max-width: 1290px;
+	 display: flex;
+	 flex-wrap: wrap;
+	 margin: 0px auto;
+	 background: #f8fbfe;
+	 box-shadow: 0px 10px 50px rgba(1, 13, 130, 0.12);
+	 border-radius: 32px;
+	 padding: 30px 30px 0;
+}
+ .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .your-test-class .item__images--skill {
+	 cursor: pointer;
+	 text-decoration: none;
+	 text-align: center;
+	 width: calc(25% - 22.5px);
+	 margin-bottom: 30px;
+}
+ .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .your-test-class .item__images--skill.btn-none--active .none-active-state {
+	 position: absolute;
+	 top: 0;
+	 right: 0;
+	 left: 0;
+	 bottom: 39px;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+}
+ .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .your-test-class .item__images--skill.btn-none--active .none-active-state img {
+	 padding: 11px;
+	 background: linear-gradient(0deg, #fea238 0.02%, #f8cc21 99.99%);
+	 border-radius: 50%;
+}
+ .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .your-test-class .item__images--skill:not(:nth-child(4n+4)) {
+	 margin-right: 30px;
+}
+ .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .your-test-class .item__images--skill > img {
+	 display: inline-block;
+	 width: 100%;
+}
+ .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .your-test-class .title__img--skill {
+	 font-size: 16px;
+	 font-style: normal;
+	 font-weight: 600;
+	 line-height: 24px;
+	 color: #252b42;
+	 margin-top: 15px;
+	 padding: 0px 15px;
+}
+ .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .button__prev--skill {
+	 cursor: pointer;
+	 left: -31px;
+	 top: 30%;
+	 z-index: 999;
+	 position: absolute;
+	 padding: 28px 33px;
+	 color: #f49000;
+	 display: inline-block;
+	 background: white;
+	 border-radius: 56px;
+	 box-shadow: 0px 10px 50px rgba(1, 13, 130, 0.1);
+}
+ .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .button__next--skill {
+	 cursor: pointer;
+	 right: -30px;
+	 top: 30%;
+	 z-index: 999;
+	 position: absolute;
+	 padding: 28px 33px;
+	 color: #f49000;
+	 display: inline-block;
+	 background: white;
+	 border-radius: 56px;
+	 box-shadow: 0px 10px 50px rgba(1, 13, 130, 0.1);
+}
+ .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .button__next--skill:hover {
+	 color: white;
+	 background: #f49000;
+}
+ .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .button__prev--skill:hover {
+	 color: white;
+	 background: #f49000;
+}
+ .modal-content.modal-content-lesson {
+	 background: #fffeeb;
+	 border-radius: 16px;
+	 padding: 0px 26px 0px 45px;
+}
+ .modal-content.modal-content-lesson .modal-header {
+	 padding-top: 25px !important;
+	 border: none;
+	 padding-left: 0px;
+	 padding-right: 0px;
+	 padding-bottom: 0px;
+}
+ .modal-content.modal-content-lesson .modal-header .close.close_lesson {
+	 background: #000;
+	 border-radius: 50%;
+	 padding: 0 12.95px;
+	 border: none;
+}
+ .modal-content.modal-content-lesson .modal-header .close.close_lesson span.icon__lesson {
+	 font-size: 28px;
+	 color: white;
+	 display: flex;
+}
+ .modal-content.modal-content-lesson .modal-header .modal-title.modal_title--lesson {
+	 font-size: 24px;
+	 font-style: normal;
+	 font-weight: 700;
+	 line-height: 42px;
+}
+ .modal-content.modal-content-lesson .modal-body .total_view-lesson {
+	 font-size: 14px;
+	 font-weight: 400;
+	 line-height: 20px;
+	 color: #ff6551;
+	 margin-left: 9px;
+	 margin-top: 2px;
+}
+ .modal-content.modal-content-lesson .modal-body .info__different--lesson .info__different-1 {
+	 font-size: 16px;
+	 font-style: normal;
+	 font-weight: 400;
+	 line-height: 24px;
+	 display: inline-block;
+	 margin-right: 88px;
+	 margin-top: 24px;
+}
+ .modal-content.modal-content-lesson .modal-body .info__different--lesson .info__different-1 span.info__different-no {
+	 font-size: 16px;
+	 font-weight: 700;
+	 line-height: 24px;
+}
+ .modal-content.modal-content-lesson .modal-body p.content__lesson--text {
+	 font-size: 16px;
+	 font-style: normal;
+	 font-weight: 500;
+	 line-height: 24px;
+	 color: #4f4f4f;
+	 margin: 16px 0px 24px 0px;
+	 padding-right: 20px;
+}
+ .modal-content.modal-content-lesson .modal-body .video__lesson-ajax {
+	 margin-top: 20px;
+	 border-radius: 10px;
+	 overflow: hidden;
+}
+ .modal-content.modal-content-lesson .modal-body .video__lesson-ajax iframe {
+	 width: 100%;
+	 height: 453px;
+}
+ .modal-content.modal-content-lesson .modal-body ul.wp_youtube-lesson {
+	 list-style: none;
+	 padding-left: 0px;
+}
+ .modal-content.modal-content-lesson .modal-body ul.wp_youtube-lesson li.item_youtube--lesson {
+	 margin-bottom: 16px;
+	 cursor: pointer;
+}
+ .modal-content.modal-content-lesson .modal-body ul.wp_youtube-lesson li.item_youtube--lesson .img__item--right {
+	 margin-left: 20px;
+}
+ .modal-content.modal-content-lesson .modal-body ul.wp_youtube-lesson li.item_youtube--lesson .img__item--right .title__item--right {
+	 font-size: 16px;
+	 font-style: normal;
+	 font-weight: 600;
+	 line-height: 24px;
+	 color: #252b42;
+}
+ .modal-content.modal-content-lesson .modal-body ul.wp_youtube-lesson li.item_youtube--lesson .img__item--right .title__item--s {
+	 font-size: 14px;
+	 font-style: normal;
+	 font-weight: 400;
+	 line-height: 20px;
+	 color: #ff6551;
+}
+ .modal-content.modal-content-lesson .modal-footer {
+	 border: none;
+}
+ @media (max-width: 1349px) {
+	 .section-list-test .wp__bg--skill .content__lesson-skill {
+		 padding: 0 15px;
+	}
+	 .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .your-test-class {
+		 padding: 30px 15px 0;
+	}
+	 .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .your-test-class .item__images--skill {
+		 width: calc(33.33% - 20px);
+	}
+	 .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .your-test-class .item__images--skill:not(:nth-child(3n+3)) {
+		 margin-right: 30px;
+	}
+	 .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .your-test-class .item__images--skill:not(:nth-child(4n+4)):nth-child(3n+3) {
+		 margin-right: 0;
+	}
+}
+ @media (max-width: 991px) {
+	 .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .title__slide--skill {
+		 margin-left: auto;
+		 margin-right: auto;
+		 max-width: 630px;
+	}
+	 .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .your-test-class {
+		 max-width: 630px;
+	}
+	 .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .your-test-class .item__images--skill {
+		 width: calc(50% - 10px);
+	}
+	 .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .your-test-class .item__images--skill:nth-child(2n+1) {
+		 margin-right: 20px;
+	}
+	 .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .your-test-class .item__images--skill:not(:nth-child(3n+3)):not(:nth-child(2n+1)) {
+		 margin-right: 0;
+	}
+}
+ @media (max-width: 650px) {
+	 .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .your-test-class .item__images--skill > img {
+		 width: 90%;
+	}
+}
+ @media (max-width: 450px) {
+	 .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .your-test-class {
+		 justify-content: center;
+	}
+	 .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .your-test-class .item__images--skill {
+		 width: 100%;
+		 margin-right: 0 !important;
+	}
+	 .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .your-test-class .item__images--skill > img {
+		 width: 100%;
+	}
+}
+ .main_container iframe#video_show {
+	 width: 100%;
+	 height: 100%;
+}
+ @media (min-width: 992px) {
+	 .modal-lg, .modal-xl {
+		 max-width: 890px !important;
+	}
+}
+ @media (max-width: 1000px) {
+	 .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .your-test-class .title__img--skill {
+		 font-size: 16px;
+		 padding: 0 30px;
+	}
+	 .modal-content.modal-content-lesson {
+		 padding: 0px 15px 0px 15px;
+	}
+}
+ @media (max-width: 768px) {
+	 .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .your-test-class .title__img--skill {
+		 font-size: 14px;
+		 margin: 20px 0px 20px 0px;
+	}
+	 .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .your-test-class .item__images--skill.btn-none--active .none-active-state {
+		 bottom: 64px;
+	}
+	 .section-list-test .wp__bg--skill .content__lesson-skill .title__lesson-skill {
+		 font-size: 33px;
+	}
+	 .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .title__slide--skill {
+		 font-size: 22px;
+	}
+	 .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .button__prev--skill {
+		 padding: 19px 24px;
+		 top: 37%;
+	}
+	 .section-list-test .wp__bg--skill .content__lesson-skill .wp__slide--images-skill .button__next--skill {
+		 padding: 19px 24px;
+		 top: 37%;
+	}
+}
+ 

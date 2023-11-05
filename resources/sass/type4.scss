@@ -1,0 +1,275 @@
+.section-exercise-type,
+.section-exercise-type22,
+.section-exercise-type23 {
+    min-height: 100vh;
+    padding: 50px 15px 40px;
+
+    .custom-exercise-title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        text-align: center;
+        color: #252B42;
+    }
+
+    .section-image-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -2;
+    }
+
+    .exercise-type-header {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1230px;
+        margin-right: auto;
+        margin-left: auto;
+        align-items: center;
+        margin-bottom: 10px;
+
+        .header-score {
+            background: linear-gradient(0deg, #FE3838 -0.01%, #EA6078 100%);
+            color: $white;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 32px;
+            text-align: center;
+            min-width: 83px;
+            padding: 10px;
+            border-radius: 50%;
+            height: 83px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            margin-right: 15px;
+        }
+
+        .exercise-title {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 32px;
+            text-align: center;
+            color: $black-lighter;
+            width: calc(100% - 183px);
+        }
+
+        .exercise-time {
+            margin-left: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-width: 100px;
+
+            .time-icon {
+                margin-bottom: 7px;
+            }
+
+            .count-down-time {
+                font-style: normal;
+                font-weight: bold;
+                text-align: center;
+                color: $green-darker;
+                font-size: 32px;
+                line-height: 39px;
+            }
+        }
+    }
+
+    .question-score-wrapper {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1230px;
+        margin-right: auto;
+        margin-left: auto;
+        align-items: center;
+        margin-bottom: 30px;
+        justify-content: center;
+
+        .question-score {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;
+            color: $black-lighter;
+
+            > span {
+                color: $yellow;
+            }
+        }
+    }
+}
+
+.question-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .btn-prev-left {
+        margin-right: 20px;
+        background-color: $white;
+        padding: 17px 20px;
+        border-radius: 50%;
+
+        &:hover,
+        &:focus {
+            opacity: 0.8;
+        }
+    }
+
+    .btn--capture,
+    .btn--scored {
+        display: inline-block;
+        margin-right: 20px;
+        background: linear-gradient(90.16deg, #8EE048 19.02%, #66CE5C 87.44%);
+        border-radius: 12px;
+        box-shadow: 0 4px 0 0 $green-normal;
+        color: $white;
+        padding: 17px 15px;
+        text-align: center;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        text-decoration: none;
+        min-width: 151px;
+
+        &:hover,
+        &:focus {
+            opacity: 0.8;
+        }
+    }
+
+    .btn-submit--exercise {
+        color: $white;
+        padding: 17px 15px;
+        text-decoration: none;
+        text-align: center;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        background: $yellow;
+        border-radius: 12px;
+        box-shadow: 0 4px 0 0 $warning;
+        margin-right: 20px;
+        min-width: 151px;
+
+        &:hover,
+        &:focus {
+            opacity: 0.8;
+        }
+    }
+
+    .btn-next-right {
+        background-color: $white;
+        padding: 17px 20px;
+        border-radius: 50%;
+
+        &:hover,
+        &:focus {
+            opacity: 0.8;
+        }
+    }
+}
+
+.section-exercise-type22,
+.section-exercise-type23 {
+    .exercise-type-header {
+        .exercise-title,
+        .custom-exercise-title,
+        .question-score {
+            color: $white;
+        }
+
+        .exercise-time {
+            .count-down-time {
+                color: $white;
+            }
+        }
+    }
+
+    .custom-exercise-title {
+        color: $white;
+    }
+
+    .question-score-wrapper {
+        .question-score {
+            color: $white;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .section-exercise-type,
+    .section-exercise-type22,
+    .section-exercise-type23 {
+        .exercise-type-header {
+            .exercise-title {
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .section-exercise-type,
+    .section-exercise-type22,
+    .section-exercise-type23 {
+        .exercise-type-header {
+            .exercise-time {
+                .count-down-time {
+                    font-size: 24px;
+                    line-height: unset;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .section-exercise-type,
+    .section-exercise-type22,
+    .section-exercise-type23 {
+        .exercise-type-header {
+            .header-score {
+                font-size: 24px;
+                min-width: 75px;
+                height: 75px;
+            }
+        }
+
+        .custom-exercise-title {
+            font-size: 20px;
+        }
+
+        .question-score-wrapper {
+            .question-score {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .question-footer {
+        .btn-prev-left {
+            margin-right: 10px;
+            padding: 12px 15px;
+        }
+
+        .btn-next-right {
+            padding: 12px 15px;
+        }
+
+        .btn--capture,
+        .btn--scored,
+        .btn-submit--exercise {
+            margin-right: 10px;
+            padding: 12px 15px;
+        }
+    }
+}
